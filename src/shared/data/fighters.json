@@ -1,0 +1,1922 @@
+[
+  {
+    "id": "blackpowders-buccaneers-1",
+    "warBand": "blackpowders-buccaneers",
+    "imageDefault": "/images/warband_fighters/blackpowders-buccaneers-1.webp",
+    "imageInspired": "/images/warband_fighters/blackpowders-buccaneers-1-inspired.webp"
+  },
+  {
+    "id": "blackpowders-buccaneers-2",
+    "warBand": "blackpowders-buccaneers",
+    "imageDefault": "/images/warband_fighters/blackpowders-buccaneers-2.webp",
+    "imageInspired": "/images/warband_fighters/blackpowders-buccaneers-2-inspired.webp"
+  },
+  {
+    "id": "blackpowders-buccaneers-3",
+    "warBand": "blackpowders-buccaneers",
+    "imageDefault": "/images/warband_fighters/blackpowders-buccaneers-3.webp",
+    "imageInspired": "/images/warband_fighters/blackpowders-buccaneers-3-inspired.webp"
+  },
+  {
+    "id": "blackpowders-buccaneers-4",
+    "warBand": "blackpowders-buccaneers",
+    "imageDefault": "/images/warband_fighters/blackpowders-buccaneers-4.webp",
+    "imageInspired": "/images/warband_fighters/blackpowders-buccaneers-4-inspired.webp"
+  },
+  {
+    "id": "blackpowders-buccaneers-5",
+    "warBand": "blackpowders-buccaneers",
+    "imageDefault": "/images/warband_fighters/blackpowders-buccaneers-5.webp",
+    "imageInspired": "/images/warband_fighters/blackpowders-buccaneers-5-inspired.webp"
+  },
+  {
+    "id": "blood-of-the-bull-1",
+    "warBand": "blood-of-the-bull",
+    "imageDefault": "/images/warband_fighters/blood-of-the-bull-1.webp",
+    "imageInspired": "/images/warband_fighters/blood-of-the-bull-1-inspired.webp"
+  },
+  {
+    "id": "blood-of-the-bull-2",
+    "warBand": "blood-of-the-bull",
+    "imageDefault": "/images/warband_fighters/blood-of-the-bull-2.webp",
+    "imageInspired": "/images/warband_fighters/blood-of-the-bull-2-inspired.webp"
+  },
+  {
+    "id": "blood-of-the-bull-3",
+    "warBand": "blood-of-the-bull",
+    "imageDefault": "/images/warband_fighters/blood-of-the-bull-3.webp",
+    "imageInspired": "/images/warband_fighters/blood-of-the-bull-3-inspired.webp"
+  },
+  {
+    "id": "blood-of-the-bull-4",
+    "warBand": "blood-of-the-bull",
+    "imageDefault": "/images/warband_fighters/blood-of-the-bull-4.webp",
+    "imageInspired": "/images/warband_fighters/blood-of-the-bull-4-inspired.webp"
+  },
+  {
+    "id": "blood-of-the-bull-5",
+    "warBand": "blood-of-the-bull",
+    "imageDefault": "/images/warband_fighters/blood-of-the-bull-5.webp",
+    "imageInspired": "/images/warband_fighters/blood-of-the-bull-5-inspired.webp"
+  },
+  {
+    "id": "borgits-beastgrabbaz-1",
+    "warBand": "borgits-beastgrabbaz",
+    "imageDefault": "/images/warband_fighters/borgits-beastgrabbaz-1.webp",
+    "imageInspired": "/images/warband_fighters/borgits-beastgrabbaz-1-inspired.webp"
+  },
+  {
+    "id": "borgits-beastgrabbaz-2",
+    "warBand": "borgits-beastgrabbaz",
+    "imageDefault": "/images/warband_fighters/borgits-beastgrabbaz-2.webp",
+    "imageInspired": "/images/warband_fighters/borgits-beastgrabbaz-2-inspired.webp"
+  },
+  {
+    "id": "borgits-beastgrabbaz-3",
+    "warBand": "borgits-beastgrabbaz",
+    "imageDefault": "/images/warband_fighters/borgits-beastgrabbaz-3.webp",
+    "imageInspired": "/images/warband_fighters/borgits-beastgrabbaz-3-inspired.webp"
+  },
+  {
+    "id": "borgits-beastgrabbaz-4",
+    "warBand": "borgits-beastgrabbaz",
+    "imageDefault": "/images/warband_fighters/borgits-beastgrabbaz-4.webp",
+    "imageInspired": "/images/warband_fighters/borgits-beastgrabbaz-4-inspired.webp"
+  },
+  {
+    "id": "borgits-beastgrabbaz-5",
+    "warBand": "borgits-beastgrabbaz",
+    "imageDefault": "/images/warband_fighters/borgits-beastgrabbaz-5.webp",
+    "imageInspired": "/images/warband_fighters/borgits-beastgrabbaz-5-inspired.webp"
+  },
+  {
+    "id": "brethren-of-the-bolt-1",
+    "warBand": "brethren-of-the-bolt",
+    "imageDefault": "/images/warband_fighters/brethren-of-the-bolt-1.webp",
+    "imageInspired": "/images/warband_fighters/brethren-of-the-bolt-1-inspired.webp"
+  },
+  {
+    "id": "brethren-of-the-bolt-2",
+    "warBand": "brethren-of-the-bolt",
+    "imageDefault": "/images/warband_fighters/brethren-of-the-bolt-2.webp",
+    "imageInspired": "/images/warband_fighters/brethren-of-the-bolt-2-inspired.webp"
+  },
+  {
+    "id": "brethren-of-the-bolt-3",
+    "warBand": "brethren-of-the-bolt",
+    "imageDefault": "/images/warband_fighters/brethren-of-the-bolt-3.webp",
+    "imageInspired": "/images/warband_fighters/brethren-of-the-bolt-3-inspired.webp"
+  },
+  {
+    "id": "brethren-of-the-bolt-4",
+    "warBand": "brethren-of-the-bolt",
+    "imageDefault": "/images/warband_fighters/brethren-of-the-bolt-4.webp",
+    "imageInspired": "/images/warband_fighters/brethren-of-the-bolt-4-inspired.webp"
+  },
+  {
+    "id": "brethren-of-the-bolt-5",
+    "warBand": "brethren-of-the-bolt",
+    "imageDefault": "/images/warband_fighters/brethren-of-the-bolt-5.webp",
+    "imageInspired": "/images/warband_fighters/brethren-of-the-bolt-5-inspired.webp"
+  },
+  {
+    "id": "cyrenis-razors-1",
+    "warBand": "cyrenis-razors",
+    "imageDefault": "/images/warband_fighters/cyrenis-razors-1.webp",
+    "imageInspired": "/images/warband_fighters/cyrenis-razors-1-inspired.webp"
+  },
+  {
+    "id": "cyrenis-razors-2",
+    "warBand": "cyrenis-razors",
+    "imageDefault": "/images/warband_fighters/cyrenis-razors-2.webp",
+    "imageInspired": "/images/warband_fighters/cyrenis-razors-2-inspired.webp"
+  },
+  {
+    "id": "cyrenis-razors-3",
+    "warBand": "cyrenis-razors",
+    "imageDefault": "/images/warband_fighters/cyrenis-razors-3.webp",
+    "imageInspired": "/images/warband_fighters/cyrenis-razors-3-inspired.webp"
+  },
+  {
+    "id": "cyrenis-razors-4",
+    "warBand": "cyrenis-razors",
+    "imageDefault": "/images/warband_fighters/cyrenis-razors-4.webp",
+    "imageInspired": "/images/warband_fighters/cyrenis-razors-4-inspired.webp"
+  },
+  {
+    "id": "da-kunnin-krew-1",
+    "warBand": "da-kunnin-krew",
+    "imageDefault": "/images/warband_fighters/da-kunnin-krew-1.webp",
+    "imageInspired": "/images/warband_fighters/da-kunnin-krew-1-inspired.webp"
+  },
+  {
+    "id": "da-kunnin-krew-2",
+    "warBand": "da-kunnin-krew",
+    "imageDefault": "/images/warband_fighters/da-kunnin-krew-2.webp",
+    "imageInspired": "/images/warband_fighters/da-kunnin-krew-2-inspired.webp"
+  },
+  {
+    "id": "da-kunnin-krew-3",
+    "warBand": "da-kunnin-krew",
+    "imageDefault": "/images/warband_fighters/da-kunnin-krew-3.webp",
+    "imageInspired": "/images/warband_fighters/da-kunnin-krew-3-inspired.webp"
+  },
+  {
+    "id": "da-kunnin-krew-4",
+    "warBand": "da-kunnin-krew",
+    "imageDefault": "/images/warband_fighters/da-kunnin-krew-4.webp",
+    "imageInspired": "/images/warband_fighters/da-kunnin-krew-4-inspired.webp"
+  },
+  {
+    "id": "da-kunnin-krew-5",
+    "warBand": "da-kunnin-krew",
+    "imageDefault": "/images/warband_fighters/da-kunnin-krew-5.webp",
+    "imageInspired": "/images/warband_fighters/da-kunnin-krew-5-inspired.webp"
+  },
+  {
+    "id": "daggoks-stab-ladz-1",
+    "warBand": "daggoks-stab-ladz",
+    "imageDefault": "/images/warband_fighters/daggoks-stab-ladz-1.webp",
+    "imageInspired": "/images/warband_fighters/daggoks-stab-ladz-1-inspired.webp"
+  },
+  {
+    "id": "daggoks-stab-ladz-2",
+    "warBand": "daggoks-stab-ladz",
+    "imageDefault": "/images/warband_fighters/daggoks-stab-ladz-2.webp",
+    "imageInspired": "/images/warband_fighters/daggoks-stab-ladz-2-inspired.webp"
+  },
+  {
+    "id": "daggoks-stab-ladz-3",
+    "warBand": "daggoks-stab-ladz",
+    "imageDefault": "/images/warband_fighters/daggoks-stab-ladz-3.webp",
+    "imageInspired": "/images/warband_fighters/daggoks-stab-ladz-3-inspired.webp"
+  },
+  {
+    "id": "daggoks-stab-ladz-4",
+    "warBand": "daggoks-stab-ladz",
+    "imageDefault": "/images/warband_fighters/daggoks-stab-ladz-4.webp",
+    "imageInspired": "/images/warband_fighters/daggoks-stab-ladz-4-inspired.webp"
+  },
+  {
+    "id": "domitans-stormcoven-1",
+    "warBand": "domitans-stormcoven",
+    "imageDefault": "/images/warband_fighters/domitans-stormcoven-1.webp",
+    "imageInspired": "/images/warband_fighters/domitans-stormcoven-1-inspired.webp"
+  },
+  {
+    "id": "domitans-stormcoven-2",
+    "warBand": "domitans-stormcoven",
+    "imageDefault": "/images/warband_fighters/domitans-stormcoven-2.webp",
+    "imageInspired": "/images/warband_fighters/domitans-stormcoven-2-inspired.webp"
+  },
+  {
+    "id": "domitans-stormcoven-3",
+    "warBand": "domitans-stormcoven",
+    "imageDefault": "/images/warband_fighters/domitans-stormcoven-3.webp",
+    "imageInspired": "/images/warband_fighters/domitans-stormcoven-3-inspired.webp"
+  },
+  {
+    "id": "drepurs-wraithcreepers-1",
+    "warBand": "drepurs-wraithcreepers",
+    "imageDefault": "/images/warband_fighters/drepurs-wraithcreepers-1.webp",
+    "imageInspired": "/images/warband_fighters/drepurs-wraithcreepers-1-inspired.webp"
+  },
+  {
+    "id": "drepurs-wraithcreepers-2",
+    "warBand": "drepurs-wraithcreepers",
+    "imageDefault": "/images/warband_fighters/drepurs-wraithcreepers-2.webp",
+    "imageInspired": "/images/warband_fighters/drepurs-wraithcreepers-2-inspired.webp"
+  },
+  {
+    "id": "drepurs-wraithcreepers-3",
+    "warBand": "drepurs-wraithcreepers",
+    "imageDefault": "/images/warband_fighters/drepurs-wraithcreepers-3.webp",
+    "imageInspired": "/images/warband_fighters/drepurs-wraithcreepers-3-inspired.webp"
+  },
+  {
+    "id": "drepurs-wraithcreepers-4",
+    "warBand": "drepurs-wraithcreepers",
+    "imageDefault": "/images/warband_fighters/drepurs-wraithcreepers-4.webp",
+    "imageInspired": "/images/warband_fighters/drepurs-wraithcreepers-4-inspired.webp"
+  },
+  {
+    "id": "elathains-soulraid-1",
+    "warBand": "elathains-soulraid",
+    "imageDefault": "/images/warband_fighters/elathains-soulraid-1.webp",
+    "imageInspired": "/images/warband_fighters/elathains-soulraid-1-inspired.webp"
+  },
+  {
+    "id": "elathains-soulraid-2",
+    "warBand": "elathains-soulraid",
+    "imageDefault": "/images/warband_fighters/elathains-soulraid-2.webp",
+    "imageInspired": "/images/warband_fighters/elathains-soulraid-2-inspired.webp"
+  },
+  {
+    "id": "elathains-soulraid-3",
+    "warBand": "elathains-soulraid",
+    "imageDefault": "/images/warband_fighters/elathains-soulraid-3.webp",
+    "imageInspired": "/images/warband_fighters/elathains-soulraid-3-inspired.webp"
+  },
+  {
+    "id": "elathains-soulraid-4",
+    "warBand": "elathains-soulraid",
+    "imageDefault": "/images/warband_fighters/elathains-soulraid-4.webp",
+    "imageInspired": "/images/warband_fighters/elathains-soulraid-4-inspired.webp"
+  },
+  {
+    "id": "elathains-soulraid-5",
+    "warBand": "elathains-soulraid",
+    "imageDefault": "/images/warband_fighters/elathains-soulraid-5.webp",
+    "imageInspired": "/images/warband_fighters/elathains-soulraid-5-inspired.webp"
+  },
+  {
+    "id": "ephilims-pandaemonium-1",
+    "warBand": "ephilims-pandaemonium",
+    "imageDefault": "/images/warband_fighters/ephilims-pandaemonium-1.webp",
+    "imageInspired": "/images/warband_fighters/ephilims-pandaemonium-1-inspired.webp"
+  },
+  {
+    "id": "ephilims-pandaemonium-2",
+    "warBand": "ephilims-pandaemonium",
+    "imageDefault": "/images/warband_fighters/ephilims-pandaemonium-2.webp",
+    "imageInspired": "/images/warband_fighters/ephilims-pandaemonium-2-inspired.webp"
+  },
+  {
+    "id": "ephilims-pandaemonium-3",
+    "warBand": "ephilims-pandaemonium",
+    "imageDefault": "/images/warband_fighters/ephilims-pandaemonium-3.webp",
+    "imageInspired": "/images/warband_fighters/ephilims-pandaemonium-3-inspired.webp"
+  },
+  {
+    "id": "ephilims-pandaemonium-4",
+    "warBand": "ephilims-pandaemonium",
+    "imageDefault": "/images/warband_fighters/ephilims-pandaemonium-4.webp",
+    "imageInspired": "/images/warband_fighters/ephilims-pandaemonium-4-inspired.webp"
+  },
+  {
+    "id": "ephilims-pandaemonium-5",
+    "warBand": "ephilims-pandaemonium",
+    "imageDefault": "/images/warband_fighters/ephilims-pandaemonium-5.webp",
+    "imageInspired": "/images/warband_fighters/ephilims-pandaemonium-5-inspired.webp"
+  },
+  {
+    "id": "eyes-of-the-nine-1",
+    "warBand": "eyes-of-the-nine",
+    "imageDefault": "/images/warband_fighters/eyes-of-the-nine-1.webp",
+    "imageInspired": "/images/warband_fighters/eyes-of-the-nine-1-inspired.webp"
+  },
+  {
+    "id": "eyes-of-the-nine-2",
+    "warBand": "eyes-of-the-nine",
+    "imageDefault": "/images/warband_fighters/eyes-of-the-nine-2.webp",
+    "imageInspired": "/images/warband_fighters/eyes-of-the-nine-2-inspired.webp"
+  },
+  {
+    "id": "eyes-of-the-nine-3",
+    "warBand": "eyes-of-the-nine",
+    "imageDefault": "/images/warband_fighters/eyes-of-the-nine-3.webp",
+    "imageInspired": "/images/warband_fighters/eyes-of-the-nine-3-inspired.webp"
+  },
+  {
+    "id": "eyes-of-the-nine-4",
+    "warBand": "eyes-of-the-nine",
+    "imageDefault": "/images/warband_fighters/eyes-of-the-nine-4.webp",
+    "imageInspired": "/images/warband_fighters/eyes-of-the-nine-4-inspired.webp"
+  },
+  {
+    "id": "eyes-of-the-nine-5",
+    "warBand": "eyes-of-the-nine",
+    "imageDefault": "/images/warband_fighters/eyes-of-the-nine-5.webp",
+    "imageInspired": "/images/warband_fighters/eyes-of-the-nine-5-inspired.webp"
+  },
+  {
+    "id": "eyes-of-the-nine-6",
+    "warBand": "eyes-of-the-nine",
+    "imageDefault": "/images/warband_fighters/eyes-of-the-nine-6.webp",
+    "imageInspired": "/images/warband_fighters/eyes-of-the-nine-6-inspired.webp"
+  },
+  {
+    "id": "garreks-reavers-1",
+    "warBand": "garreks-reavers",
+    "imageDefault": "/images/warband_fighters/garreks-reavers-1.webp",
+    "imageInspired": "/images/warband_fighters/garreks-reavers-1-inspired.webp"
+  },
+  {
+    "id": "garreks-reavers-2",
+    "warBand": "garreks-reavers",
+    "imageDefault": "/images/warband_fighters/garreks-reavers-2.webp",
+    "imageInspired": "/images/warband_fighters/garreks-reavers-2-inspired.webp"
+  },
+  {
+    "id": "garreks-reavers-3",
+    "warBand": "garreks-reavers",
+    "imageDefault": "/images/warband_fighters/garreks-reavers-3.webp",
+    "imageInspired": "/images/warband_fighters/garreks-reavers-3-inspired.webp"
+  },
+  {
+    "id": "garreks-reavers-4",
+    "warBand": "garreks-reavers",
+    "imageDefault": "/images/warband_fighters/garreks-reavers-4.webp",
+    "imageInspired": "/images/warband_fighters/garreks-reavers-4-inspired.webp"
+  },
+  {
+    "id": "garreks-reavers-5",
+    "warBand": "garreks-reavers",
+    "imageDefault": "/images/warband_fighters/garreks-reavers-5.webp",
+    "imageInspired": "/images/warband_fighters/garreks-reavers-5-inspired.webp"
+  },
+  {
+    "id": "gnarlspirit-pack-1",
+    "warBand": "gnarlspirit-pack",
+    "imageDefault": "/images/warband_fighters/gnarlspirit-pack-1.webp",
+    "imageInspired": "/images/warband_fighters/gnarlspirit-pack-1-inspired.webp"
+  },
+  {
+    "id": "gnarlspirit-pack-2",
+    "warBand": "gnarlspirit-pack",
+    "imageDefault": "/images/warband_fighters/gnarlspirit-pack-2.webp",
+    "imageInspired": "/images/warband_fighters/gnarlspirit-pack-2-inspired.webp"
+  },
+  {
+    "id": "gnarlspirit-pack-3",
+    "warBand": "gnarlspirit-pack",
+    "imageDefault": "/images/warband_fighters/gnarlspirit-pack-3.webp",
+    "imageInspired": "/images/warband_fighters/gnarlspirit-pack-3-inspired.webp"
+  },
+  {
+    "id": "gnarlspirit-pack-4",
+    "warBand": "gnarlspirit-pack",
+    "imageDefault": "/images/warband_fighters/gnarlspirit-pack-4.webp",
+    "imageInspired": "/images/warband_fighters/gnarlspirit-pack-4-inspired.webp"
+  },
+  {
+    "id": "godsworn-hunt-1",
+    "warBand": "godsworn-hunt",
+    "imageDefault": "/images/warband_fighters/godsworn-hunt-1.webp",
+    "imageInspired": "/images/warband_fighters/godsworn-hunt-1-inspired.webp"
+  },
+  {
+    "id": "godsworn-hunt-2",
+    "warBand": "godsworn-hunt",
+    "imageDefault": "/images/warband_fighters/godsworn-hunt-2.webp",
+    "imageInspired": "/images/warband_fighters/godsworn-hunt-2-inspired.webp"
+  },
+  {
+    "id": "godsworn-hunt-3",
+    "warBand": "godsworn-hunt",
+    "imageDefault": "/images/warband_fighters/godsworn-hunt-3.webp",
+    "imageInspired": "/images/warband_fighters/godsworn-hunt-3-inspired.webp"
+  },
+  {
+    "id": "godsworn-hunt-4",
+    "warBand": "godsworn-hunt",
+    "imageDefault": "/images/warband_fighters/godsworn-hunt-4.webp",
+    "imageInspired": "/images/warband_fighters/godsworn-hunt-4-inspired.webp"
+  },
+  {
+    "id": "godsworn-hunt-5",
+    "warBand": "godsworn-hunt",
+    "imageDefault": "/images/warband_fighters/godsworn-hunt-5.webp",
+    "imageInspired": "/images/warband_fighters/godsworn-hunt-5-inspired.webp"
+  },
+  {
+    "id": "godsworn-hunt-6",
+    "warBand": "godsworn-hunt",
+    "imageDefault": "/images/warband_fighters/godsworn-hunt-6.webp",
+    "imageInspired": "/images/warband_fighters/godsworn-hunt-6-inspired.webp"
+  },
+  {
+    "id": "gorechosen-of-dromm-1",
+    "warBand": "gorechosen-of-dromm",
+    "imageDefault": "/images/warband_fighters/gorechosen-of-dromm-1.webp",
+    "imageInspired": "/images/warband_fighters/gorechosen-of-dromm-1-inspired.webp"
+  },
+  {
+    "id": "gorechosen-of-dromm-2",
+    "warBand": "gorechosen-of-dromm",
+    "imageDefault": "/images/warband_fighters/gorechosen-of-dromm-2.webp",
+    "imageInspired": "/images/warband_fighters/gorechosen-of-dromm-2-inspired.webp"
+  },
+  {
+    "id": "gorechosen-of-dromm-3",
+    "warBand": "gorechosen-of-dromm",
+    "imageDefault": "/images/warband_fighters/gorechosen-of-dromm-3.webp",
+    "imageInspired": "/images/warband_fighters/gorechosen-of-dromm-3-inspired.webp"
+  },
+  {
+    "id": "grandfathers-gardeners-1",
+    "warBand": "grandfathers-gardeners",
+    "imageDefault": "/images/warband_fighters/grandfathers-gardeners-1.webp",
+    "imageInspired": "/images/warband_fighters/grandfathers-gardeners-1-inspired.webp"
+  },
+  {
+    "id": "grandfathers-gardeners-2",
+    "warBand": "grandfathers-gardeners",
+    "imageDefault": "/images/warband_fighters/grandfathers-gardeners-2.webp",
+    "imageInspired": "/images/warband_fighters/grandfathers-gardeners-2-inspired.webp"
+  },
+  {
+    "id": "grandfathers-gardeners-3",
+    "warBand": "grandfathers-gardeners",
+    "imageDefault": "/images/warband_fighters/grandfathers-gardeners-3.webp",
+    "imageInspired": "/images/warband_fighters/grandfathers-gardeners-3-inspired.webp"
+  },
+  {
+    "id": "grandfathers-gardeners-4",
+    "warBand": "grandfathers-gardeners",
+    "imageDefault": "/images/warband_fighters/grandfathers-gardeners-4.webp",
+    "imageInspired": "/images/warband_fighters/grandfathers-gardeners-4-inspired.webp"
+  },
+  {
+    "id": "grandfathers-gardeners-5",
+    "warBand": "grandfathers-gardeners",
+    "imageDefault": "/images/warband_fighters/grandfathers-gardeners-5.webp",
+    "imageInspired": "/images/warband_fighters/grandfathers-gardeners-5-inspired.webp"
+  },
+  {
+    "id": "grashraks-despoilers-1",
+    "warBand": "grashraks-despoilers",
+    "imageDefault": "/images/warband_fighters/grashraks-despoilers-1.webp",
+    "imageInspired": "/images/warband_fighters/grashraks-despoilers-1-inspired.webp"
+  },
+  {
+    "id": "grashraks-despoilers-2",
+    "warBand": "grashraks-despoilers",
+    "imageDefault": "/images/warband_fighters/grashraks-despoilers-2.webp",
+    "imageInspired": "/images/warband_fighters/grashraks-despoilers-2-inspired.webp"
+  },
+  {
+    "id": "grashraks-despoilers-3",
+    "warBand": "grashraks-despoilers",
+    "imageDefault": "/images/warband_fighters/grashraks-despoilers-3.webp",
+    "imageInspired": "/images/warband_fighters/grashraks-despoilers-3-inspired.webp"
+  },
+  {
+    "id": "grashraks-despoilers-4",
+    "warBand": "grashraks-despoilers",
+    "imageDefault": "/images/warband_fighters/grashraks-despoilers-4.webp",
+    "imageInspired": "/images/warband_fighters/grashraks-despoilers-4-inspired.webp"
+  },
+  {
+    "id": "grashraks-despoilers-5",
+    "warBand": "grashraks-despoilers",
+    "imageDefault": "/images/warband_fighters/grashraks-despoilers-5.webp",
+    "imageInspired": "/images/warband_fighters/grashraks-despoilers-5-inspired.webp"
+  },
+  {
+    "id": "grashraks-despoilers-6",
+    "warBand": "grashraks-despoilers",
+    "imageDefault": "/images/warband_fighters/grashraks-despoilers-6.webp",
+    "imageInspired": "/images/warband_fighters/grashraks-despoilers-6-inspired.webp"
+  },
+  {
+    "id": "grinkraks-looncourt-1",
+    "warBand": "grinkraks-looncourt",
+    "imageDefault": "/images/warband_fighters/grinkraks-looncourt-1.webp",
+    "imageInspired": "/images/warband_fighters/grinkraks-looncourt-1-inspired.webp"
+  },
+  {
+    "id": "grinkraks-looncourt-2",
+    "warBand": "grinkraks-looncourt",
+    "imageDefault": "/images/warband_fighters/grinkraks-looncourt-2.webp",
+    "imageInspired": "/images/warband_fighters/grinkraks-looncourt-2-inspired.webp"
+  },
+  {
+    "id": "grinkraks-looncourt-3",
+    "warBand": "grinkraks-looncourt",
+    "imageDefault": "/images/warband_fighters/grinkraks-looncourt-3.webp",
+    "imageInspired": "/images/warband_fighters/grinkraks-looncourt-3-inspired.webp"
+  },
+  {
+    "id": "grinkraks-looncourt-4",
+    "warBand": "grinkraks-looncourt",
+    "imageDefault": "/images/warband_fighters/grinkraks-looncourt-4.webp",
+    "imageInspired": "/images/warband_fighters/grinkraks-looncourt-4-inspired.webp"
+  },
+  {
+    "id": "grinkraks-looncourt-5",
+    "warBand": "grinkraks-looncourt",
+    "imageDefault": "/images/warband_fighters/grinkraks-looncourt-5.webp",
+    "imageInspired": "/images/warband_fighters/grinkraks-looncourt-5-inspired.webp"
+  },
+  {
+    "id": "grinkraks-looncourt-6",
+    "warBand": "grinkraks-looncourt",
+    "imageDefault": "/images/warband_fighters/grinkraks-looncourt-6.webp",
+    "imageInspired": "/images/warband_fighters/grinkraks-looncourt-6-inspired.webp"
+  },
+  {
+    "id": "grinkraks-looncourt-7",
+    "warBand": "grinkraks-looncourt",
+    "imageDefault": "/images/warband_fighters/grinkraks-looncourt-7.webp",
+    "imageInspired": "/images/warband_fighters/grinkraks-looncourt-7-inspired.webp"
+  },
+  {
+    "id": "gryselles-arenai-1",
+    "warBand": "gryselles-arenai",
+    "imageDefault": "/images/warband_fighters/gryselles-arenai-1.webp",
+    "imageInspired": "/images/warband_fighters/gryselles-arenai-1-inspired.webp"
+  },
+  {
+    "id": "gryselles-arenai-2",
+    "warBand": "gryselles-arenai",
+    "imageDefault": "/images/warband_fighters/gryselles-arenai-2.webp",
+    "imageInspired": "/images/warband_fighters/gryselles-arenai-2-inspired.webp"
+  },
+  {
+    "id": "gryselles-arenai-3",
+    "warBand": "gryselles-arenai",
+    "imageDefault": "/images/warband_fighters/gryselles-arenai-3.webp",
+    "imageInspired": "/images/warband_fighters/gryselles-arenai-3-inspired.webp"
+  },
+  {
+    "id": "gryselles-arenai-4",
+    "warBand": "gryselles-arenai",
+    "imageDefault": "/images/warband_fighters/gryselles-arenai-4.webp",
+    "imageInspired": "/images/warband_fighters/gryselles-arenai-4-inspired.webp"
+  },
+  {
+    "id": "gryselles-arenai-5",
+    "warBand": "gryselles-arenai",
+    "imageDefault": "/images/warband_fighters/gryselles-arenai-5.webp",
+    "imageInspired": "/images/warband_fighters/gryselles-arenai-5-inspired.webp"
+  },
+  {
+    "id": "hedkrakkas-madmob-1",
+    "warBand": "hedkrakkas-madmob",
+    "imageDefault": "/images/warband_fighters/hedkrakkas-madmob-1.webp",
+    "imageInspired": "/images/warband_fighters/hedkrakkas-madmob-1-inspired.webp"
+  },
+  {
+    "id": "hedkrakkas-madmob-2",
+    "warBand": "hedkrakkas-madmob",
+    "imageDefault": "/images/warband_fighters/hedkrakkas-madmob-2.webp",
+    "imageInspired": "/images/warband_fighters/hedkrakkas-madmob-2-inspired.webp"
+  },
+  {
+    "id": "hedkrakkas-madmob-3",
+    "warBand": "hedkrakkas-madmob",
+    "imageDefault": "/images/warband_fighters/hedkrakkas-madmob-3.webp",
+    "imageInspired": "/images/warband_fighters/hedkrakkas-madmob-3-inspired.webp"
+  },
+  {
+    "id": "hedkrakkas-madmob-4",
+    "warBand": "hedkrakkas-madmob",
+    "imageDefault": "/images/warband_fighters/hedkrakkas-madmob-4.webp",
+    "imageInspired": "/images/warband_fighters/hedkrakkas-madmob-4-inspired.webp"
+  },
+  {
+    "id": "hexbanes-hunters-1",
+    "warBand": "hexbanes-hunters",
+    "imageDefault": "/images/warband_fighters/hexbanes-hunters-1.webp",
+    "imageInspired": "/images/warband_fighters/hexbanes-hunters-1-inspired.webp"
+  },
+  {
+    "id": "hexbanes-hunters-2",
+    "warBand": "hexbanes-hunters",
+    "imageDefault": "/images/warband_fighters/hexbanes-hunters-2.webp",
+    "imageInspired": "/images/warband_fighters/hexbanes-hunters-2-inspired.webp"
+  },
+  {
+    "id": "hexbanes-hunters-3",
+    "warBand": "hexbanes-hunters",
+    "imageDefault": "/images/warband_fighters/hexbanes-hunters-3.webp",
+    "imageInspired": "/images/warband_fighters/hexbanes-hunters-3-inspired.webp"
+  },
+  {
+    "id": "hexbanes-hunters-4",
+    "warBand": "hexbanes-hunters",
+    "imageDefault": "/images/warband_fighters/hexbanes-hunters-4.webp",
+    "imageInspired": "/images/warband_fighters/hexbanes-hunters-4-inspired.webp"
+  },
+  {
+    "id": "hexbanes-hunters-5",
+    "warBand": "hexbanes-hunters",
+    "imageDefault": "/images/warband_fighters/hexbanes-hunters-5.webp",
+    "imageInspired": "/images/warband_fighters/hexbanes-hunters-5-inspired.webp"
+  },
+  {
+    "id": "hexbanes-hunters-6",
+    "warBand": "hexbanes-hunters",
+    "imageDefault": "/images/warband_fighters/hexbanes-hunters-6.webp",
+    "imageInspired": "/images/warband_fighters/hexbanes-hunters-6-inspired.webp"
+  },
+  {
+    "id": "hrothgorns-mantrappers-1",
+    "warBand": "hrothgorns-mantrappers",
+    "imageDefault": "/images/warband_fighters/hrothgorns-mantrappers-1.webp",
+    "imageInspired": "/images/warband_fighters/hrothgorns-mantrappers-1-inspired.webp"
+  },
+  {
+    "id": "hrothgorns-mantrappers-2",
+    "warBand": "hrothgorns-mantrappers",
+    "imageDefault": "/images/warband_fighters/hrothgorns-mantrappers-2.webp",
+    "imageInspired": "/images/warband_fighters/hrothgorns-mantrappers-2-inspired.webp"
+  },
+  {
+    "id": "hrothgorns-mantrappers-3",
+    "warBand": "hrothgorns-mantrappers",
+    "imageDefault": "/images/warband_fighters/hrothgorns-mantrappers-3.webp",
+    "imageInspired": "/images/warband_fighters/hrothgorns-mantrappers-3-inspired.webp"
+  },
+  {
+    "id": "hrothgorns-mantrappers-4",
+    "warBand": "hrothgorns-mantrappers",
+    "imageDefault": "/images/warband_fighters/hrothgorns-mantrappers-4.webp",
+    "imageInspired": "/images/warband_fighters/hrothgorns-mantrappers-4-inspired.webp"
+  },
+  {
+    "id": "hrothgorns-mantrappers-5",
+    "warBand": "hrothgorns-mantrappers",
+    "imageDefault": "/images/warband_fighters/hrothgorns-mantrappers-5.webp",
+    "imageInspired": "/images/warband_fighters/hrothgorns-mantrappers-5-inspired.webp"
+  },
+  {
+    "id": "ironskulls-boyz-1",
+    "warBand": "ironskulls-boyz",
+    "imageDefault": "/images/warband_fighters/ironskulls-boyz-1.webp",
+    "imageInspired": "/images/warband_fighters/ironskulls-boyz-1-inspired.webp"
+  },
+  {
+    "id": "ironskulls-boyz-2",
+    "warBand": "ironskulls-boyz",
+    "imageDefault": "/images/warband_fighters/ironskulls-boyz-2.webp",
+    "imageInspired": "/images/warband_fighters/ironskulls-boyz-2-inspired.webp"
+  },
+  {
+    "id": "ironskulls-boyz-3",
+    "warBand": "ironskulls-boyz",
+    "imageDefault": "/images/warband_fighters/ironskulls-boyz-3.webp",
+    "imageInspired": "/images/warband_fighters/ironskulls-boyz-3-inspired.webp"
+  },
+  {
+    "id": "ironskulls-boyz-4",
+    "warBand": "ironskulls-boyz",
+    "imageDefault": "/images/warband_fighters/ironskulls-boyz-4.webp",
+    "imageInspired": "/images/warband_fighters/ironskulls-boyz-4-inspired.webp"
+  },
+  {
+    "id": "ironsouls-condemners-1",
+    "warBand": "ironsouls-condemners",
+    "imageDefault": "/images/warband_fighters/ironsouls-condemners-1.webp",
+    "imageInspired": "/images/warband_fighters/ironsouls-condemners-1-inspired.webp"
+  },
+  {
+    "id": "ironsouls-condemners-2",
+    "warBand": "ironsouls-condemners",
+    "imageDefault": "/images/warband_fighters/ironsouls-condemners-2.webp",
+    "imageInspired": "/images/warband_fighters/ironsouls-condemners-2-inspired.webp"
+  },
+  {
+    "id": "ironsouls-condemners-3",
+    "warBand": "ironsouls-condemners",
+    "imageDefault": "/images/warband_fighters/ironsouls-condemners-3.webp",
+    "imageInspired": "/images/warband_fighters/ironsouls-condemners-3-inspired.webp"
+  },
+  {
+    "id": "jaws-of-itzl-1",
+    "warBand": "jaws-of-itzl",
+    "imageDefault": "/images/warband_fighters/jaws-of-itzl-1.webp",
+    "imageInspired": "/images/warband_fighters/jaws-of-itzl-1-inspired.webp"
+  },
+  {
+    "id": "jaws-of-itzl-2",
+    "warBand": "jaws-of-itzl",
+    "imageDefault": "/images/warband_fighters/jaws-of-itzl-2.webp",
+    "imageInspired": "/images/warband_fighters/jaws-of-itzl-2-inspired.webp"
+  },
+  {
+    "id": "jaws-of-itzl-3",
+    "warBand": "jaws-of-itzl",
+    "imageDefault": "/images/warband_fighters/jaws-of-itzl-3.webp",
+    "imageInspired": "/images/warband_fighters/jaws-of-itzl-3-inspired.webp"
+  },
+  {
+    "id": "jaws-of-itzl-4",
+    "warBand": "jaws-of-itzl",
+    "imageDefault": "/images/warband_fighters/jaws-of-itzl-4.webp",
+    "imageInspired": "/images/warband_fighters/jaws-of-itzl-4-inspired.webp"
+  },
+  {
+    "id": "kainans-reapers-1",
+    "warBand": "kainans-reapers",
+    "imageDefault": "/images/warband_fighters/kainans-reapers-1.webp",
+    "imageInspired": "/images/warband_fighters/kainans-reapers-1-inspired.webp"
+  },
+  {
+    "id": "kainans-reapers-2",
+    "warBand": "kainans-reapers",
+    "imageDefault": "/images/warband_fighters/kainans-reapers-2.webp",
+    "imageInspired": "/images/warband_fighters/kainans-reapers-2-inspired.webp"
+  },
+  {
+    "id": "kainans-reapers-3",
+    "warBand": "kainans-reapers",
+    "imageDefault": "/images/warband_fighters/kainans-reapers-3.webp",
+    "imageInspired": "/images/warband_fighters/kainans-reapers-3-inspired.webp"
+  },
+  {
+    "id": "kainans-reapers-4",
+    "warBand": "kainans-reapers",
+    "imageDefault": "/images/warband_fighters/kainans-reapers-4.webp",
+    "imageInspired": "/images/warband_fighters/kainans-reapers-4-inspired.webp"
+  },
+  {
+    "id": "kainans-reapers-5",
+    "warBand": "kainans-reapers",
+    "imageDefault": "/images/warband_fighters/kainans-reapers-5.webp",
+    "imageInspired": "/images/warband_fighters/kainans-reapers-5-inspired.webp"
+  },
+  {
+    "id": "kainans-reapers-6",
+    "warBand": "kainans-reapers",
+    "imageDefault": "/images/warband_fighters/kainans-reapers-6.webp",
+    "imageInspired": "/images/warband_fighters/kainans-reapers-6-inspired.webp"
+  },
+  {
+    "id": "kamandoras-blades-1",
+    "warBand": "kamandoras-blades",
+    "imageDefault": "/images/warband_fighters/kamandoras-blades-1.webp",
+    "imageInspired": "/images/warband_fighters/kamandoras-blades-1-inspired.webp"
+  },
+  {
+    "id": "kamandoras-blades-2",
+    "warBand": "kamandoras-blades",
+    "imageDefault": "/images/warband_fighters/kamandoras-blades-2.webp",
+    "imageInspired": "/images/warband_fighters/kamandoras-blades-2-inspired.webp"
+  },
+  {
+    "id": "kamandoras-blades-3",
+    "warBand": "kamandoras-blades",
+    "imageDefault": "/images/warband_fighters/kamandoras-blades-3.webp",
+    "imageInspired": "/images/warband_fighters/kamandoras-blades-3-inspired.webp"
+  },
+  {
+    "id": "kamandoras-blades-4",
+    "warBand": "kamandoras-blades",
+    "imageDefault": "/images/warband_fighters/kamandoras-blades-4.webp",
+    "imageInspired": "/images/warband_fighters/kamandoras-blades-4-inspired.webp"
+  },
+  {
+    "id": "kamandoras-blades-5",
+    "warBand": "kamandoras-blades",
+    "imageDefault": "/images/warband_fighters/kamandoras-blades-5.webp",
+    "imageInspired": "/images/warband_fighters/kamandoras-blades-5-inspired.webp"
+  },
+  {
+    "id": "khagras-ravagers-1",
+    "warBand": "khagras-ravagers",
+    "imageDefault": "/images/warband_fighters/khagras-ravagers-1.webp",
+    "imageInspired": "/images/warband_fighters/khagras-ravagers-1-inspired.webp"
+  },
+  {
+    "id": "khagras-ravagers-2",
+    "warBand": "khagras-ravagers",
+    "imageDefault": "/images/warband_fighters/khagras-ravagers-2.webp",
+    "imageInspired": "/images/warband_fighters/khagras-ravagers-2-inspired.webp"
+  },
+  {
+    "id": "khagras-ravagers-3",
+    "warBand": "khagras-ravagers",
+    "imageDefault": "/images/warband_fighters/khagras-ravagers-3.webp",
+    "imageInspired": "/images/warband_fighters/khagras-ravagers-3-inspired.webp"
+  },
+  {
+    "id": "khagras-ravagers-4",
+    "warBand": "khagras-ravagers",
+    "imageDefault": "/images/warband_fighters/khagras-ravagers-4.webp",
+    "imageInspired": "/images/warband_fighters/khagras-ravagers-4-inspired.webp"
+  },
+  {
+    "id": "knives-of-the-crone-1",
+    "warBand": "knives-of-the-crone",
+    "imageDefault": "/images/warband_fighters/knives-of-the-crone-1.webp",
+    "imageInspired": "/images/warband_fighters/knives-of-the-crone-1-inspired.webp"
+  },
+  {
+    "id": "knives-of-the-crone-2",
+    "warBand": "knives-of-the-crone",
+    "imageDefault": "/images/warband_fighters/knives-of-the-crone-2.webp",
+    "imageInspired": "/images/warband_fighters/knives-of-the-crone-2-inspired.webp"
+  },
+  {
+    "id": "knives-of-the-crone-3",
+    "warBand": "knives-of-the-crone",
+    "imageDefault": "/images/warband_fighters/knives-of-the-crone-3.webp",
+    "imageInspired": "/images/warband_fighters/knives-of-the-crone-3-inspired.webp"
+  },
+  {
+    "id": "knives-of-the-crone-4",
+    "warBand": "knives-of-the-crone",
+    "imageDefault": "/images/warband_fighters/knives-of-the-crone-4.webp",
+    "imageInspired": "/images/warband_fighters/knives-of-the-crone-4-inspired.webp"
+  },
+  {
+    "id": "kurnoths-heralds-1",
+    "warBand": "kurnoths-heralds",
+    "imageDefault": "/images/warband_fighters/kurnoths-heralds-1.webp",
+    "imageInspired": "/images/warband_fighters/kurnoths-heralds-1-inspired.webp"
+  },
+  {
+    "id": "kurnoths-heralds-2",
+    "warBand": "kurnoths-heralds",
+    "imageDefault": "/images/warband_fighters/kurnoths-heralds-2.webp",
+    "imageInspired": "/images/warband_fighters/kurnoths-heralds-2-inspired.webp"
+  },
+  {
+    "id": "kurnoths-heralds-3",
+    "warBand": "kurnoths-heralds",
+    "imageDefault": "/images/warband_fighters/kurnoths-heralds-3.webp",
+    "imageInspired": "/images/warband_fighters/kurnoths-heralds-3-inspired.webp"
+  },
+  {
+    "id": "lady-harrows-mournflight-1",
+    "warBand": "lady-harrows-mournflight",
+    "imageDefault": "/images/warband_fighters/lady-harrows-mournflight-1.webp",
+    "imageInspired": "/images/warband_fighters/lady-harrows-mournflight-1-inspired.webp"
+  },
+  {
+    "id": "lady-harrows-mournflight-2",
+    "warBand": "lady-harrows-mournflight",
+    "imageDefault": "/images/warband_fighters/lady-harrows-mournflight-2.webp",
+    "imageInspired": "/images/warband_fighters/lady-harrows-mournflight-2-inspired.webp"
+  },
+  {
+    "id": "lady-harrows-mournflight-3",
+    "warBand": "lady-harrows-mournflight",
+    "imageDefault": "/images/warband_fighters/lady-harrows-mournflight-3.webp",
+    "imageInspired": "/images/warband_fighters/lady-harrows-mournflight-3-inspired.webp"
+  },
+  {
+    "id": "lady-harrows-mournflight-4",
+    "warBand": "lady-harrows-mournflight",
+    "imageDefault": "/images/warband_fighters/lady-harrows-mournflight-4.webp",
+    "imageInspired": "/images/warband_fighters/lady-harrows-mournflight-4-inspired.webp"
+  },
+  {
+    "id": "magores-fiends-1",
+    "warBand": "magores-fiends",
+    "imageDefault": "/images/warband_fighters/magores-fiends-1.webp",
+    "imageInspired": "/images/warband_fighters/magores-fiends-1-inspired.webp"
+  },
+  {
+    "id": "magores-fiends-2",
+    "warBand": "magores-fiends",
+    "imageDefault": "/images/warband_fighters/magores-fiends-2.webp",
+    "imageInspired": "/images/warband_fighters/magores-fiends-2-inspired.webp"
+  },
+  {
+    "id": "magores-fiends-3",
+    "warBand": "magores-fiends",
+    "imageDefault": "/images/warband_fighters/magores-fiends-3.webp",
+    "imageInspired": "/images/warband_fighters/magores-fiends-3-inspired.webp"
+  },
+  {
+    "id": "magores-fiends-4",
+    "warBand": "magores-fiends",
+    "imageDefault": "/images/warband_fighters/magores-fiends-4.webp",
+    "imageInspired": "/images/warband_fighters/magores-fiends-4-inspired.webp"
+  },
+  {
+    "id": "mollogs-mob-1",
+    "warBand": "mollogs-mob",
+    "imageDefault": "/images/warband_fighters/mollogs-mob-1.webp",
+    "imageInspired": "/images/warband_fighters/mollogs-mob-1-inspired.webp"
+  },
+  {
+    "id": "mollogs-mob-2",
+    "warBand": "mollogs-mob",
+    "imageDefault": "/images/warband_fighters/mollogs-mob-2.webp",
+    "imageInspired": "/images/warband_fighters/mollogs-mob-2-inspired.webp"
+  },
+  {
+    "id": "mollogs-mob-3",
+    "warBand": "mollogs-mob",
+    "imageDefault": "/images/warband_fighters/mollogs-mob-3.webp",
+    "imageInspired": "/images/warband_fighters/mollogs-mob-3-inspired.webp"
+  },
+  {
+    "id": "mollogs-mob-4",
+    "warBand": "mollogs-mob",
+    "imageDefault": "/images/warband_fighters/mollogs-mob-4.webp",
+    "imageInspired": "/images/warband_fighters/mollogs-mob-4-inspired.webp"
+  },
+  {
+    "id": "morgoks-krushas-1",
+    "warBand": "morgoks-krushas",
+    "imageDefault": "/images/warband_fighters/morgoks-krushas-1.webp",
+    "imageInspired": "/images/warband_fighters/morgoks-krushas-1-inspired.webp"
+  },
+  {
+    "id": "morgoks-krushas-2",
+    "warBand": "morgoks-krushas",
+    "imageDefault": "/images/warband_fighters/morgoks-krushas-2.webp",
+    "imageInspired": "/images/warband_fighters/morgoks-krushas-2-inspired.webp"
+  },
+  {
+    "id": "morgoks-krushas-3",
+    "warBand": "morgoks-krushas",
+    "imageDefault": "/images/warband_fighters/morgoks-krushas-3.webp",
+    "imageInspired": "/images/warband_fighters/morgoks-krushas-3-inspired.webp"
+  },
+  {
+    "id": "morgwaeths-blade-coven-1",
+    "warBand": "morgwaeths-blade-coven",
+    "imageDefault": "/images/warband_fighters/morgwaeths-blade-coven-1.webp",
+    "imageInspired": "/images/warband_fighters/morgwaeths-blade-coven-1-inspired.webp"
+  },
+  {
+    "id": "morgwaeths-blade-coven-2",
+    "warBand": "morgwaeths-blade-coven",
+    "imageDefault": "/images/warband_fighters/morgwaeths-blade-coven-2.webp",
+    "imageInspired": "/images/warband_fighters/morgwaeths-blade-coven-2-inspired.webp"
+  },
+  {
+    "id": "morgwaeths-blade-coven-3",
+    "warBand": "morgwaeths-blade-coven",
+    "imageDefault": "/images/warband_fighters/morgwaeths-blade-coven-3.webp",
+    "imageInspired": "/images/warband_fighters/morgwaeths-blade-coven-3-inspired.webp"
+  },
+  {
+    "id": "morgwaeths-blade-coven-4",
+    "warBand": "morgwaeths-blade-coven",
+    "imageDefault": "/images/warband_fighters/morgwaeths-blade-coven-4.webp",
+    "imageInspired": "/images/warband_fighters/morgwaeths-blade-coven-4-inspired.webp"
+  },
+  {
+    "id": "morgwaeths-blade-coven-5",
+    "warBand": "morgwaeths-blade-coven",
+    "imageDefault": "/images/warband_fighters/morgwaeths-blade-coven-5.webp",
+    "imageInspired": "/images/warband_fighters/morgwaeths-blade-coven-5-inspired.webp"
+  },
+  {
+    "id": "myaris-purifiers-1",
+    "warBand": "myaris-purifiers",
+    "imageDefault": "/images/warband_fighters/myaris-purifiers-1.webp",
+    "imageInspired": "/images/warband_fighters/myaris-purifiers-1-inspired.webp"
+  },
+  {
+    "id": "myaris-purifiers-2",
+    "warBand": "myaris-purifiers",
+    "imageDefault": "/images/warband_fighters/myaris-purifiers-2.webp",
+    "imageInspired": "/images/warband_fighters/myaris-purifiers-2-inspired.webp"
+  },
+  {
+    "id": "myaris-purifiers-3",
+    "warBand": "myaris-purifiers",
+    "imageDefault": "/images/warband_fighters/myaris-purifiers-3.webp",
+    "imageInspired": "/images/warband_fighters/myaris-purifiers-3-inspired.webp"
+  },
+  {
+    "id": "myaris-purifiers-4",
+    "warBand": "myaris-purifiers",
+    "imageDefault": "/images/warband_fighters/myaris-purifiers-4.webp",
+    "imageInspired": "/images/warband_fighters/myaris-purifiers-4-inspired.webp"
+  },
+  {
+    "id": "rippas-snarlfangs-1",
+    "warBand": "rippas-snarlfangs",
+    "imageDefault": "/images/warband_fighters/rippas-snarlfangs-1.webp",
+    "imageInspired": "/images/warband_fighters/rippas-snarlfangs-1-inspired.webp"
+  },
+  {
+    "id": "rippas-snarlfangs-2",
+    "warBand": "rippas-snarlfangs",
+    "imageDefault": "/images/warband_fighters/rippas-snarlfangs-2.webp",
+    "imageInspired": "/images/warband_fighters/rippas-snarlfangs-2-inspired.webp"
+  },
+  {
+    "id": "rippas-snarlfangs-3",
+    "warBand": "rippas-snarlfangs",
+    "imageDefault": "/images/warband_fighters/rippas-snarlfangs-3.webp",
+    "imageInspired": "/images/warband_fighters/rippas-snarlfangs-3-inspired.webp"
+  },
+  {
+    "id": "sepulchral-guard-1",
+    "warBand": "sepulchral-guard",
+    "imageDefault": "/images/warband_fighters/sepulchral-guard-1.webp",
+    "imageInspired": "/images/warband_fighters/sepulchral-guard-1-inspired.webp"
+  },
+  {
+    "id": "sepulchral-guard-2",
+    "warBand": "sepulchral-guard",
+    "imageDefault": "/images/warband_fighters/sepulchral-guard-2.webp",
+    "imageInspired": "/images/warband_fighters/sepulchral-guard-2-inspired.webp"
+  },
+  {
+    "id": "sepulchral-guard-3",
+    "warBand": "sepulchral-guard",
+    "imageDefault": "/images/warband_fighters/sepulchral-guard-3.webp",
+    "imageInspired": "/images/warband_fighters/sepulchral-guard-3-inspired.webp"
+  },
+  {
+    "id": "sepulchral-guard-4",
+    "warBand": "sepulchral-guard",
+    "imageDefault": "/images/warband_fighters/sepulchral-guard-4.webp",
+    "imageInspired": "/images/warband_fighters/sepulchral-guard-4-inspired.webp"
+  },
+  {
+    "id": "sepulchral-guard-5",
+    "warBand": "sepulchral-guard",
+    "imageDefault": "/images/warband_fighters/sepulchral-guard-5.webp",
+    "imageInspired": "/images/warband_fighters/sepulchral-guard-5-inspired.webp"
+  },
+  {
+    "id": "sepulchral-guard-6",
+    "warBand": "sepulchral-guard",
+    "imageDefault": "/images/warband_fighters/sepulchral-guard-6.webp",
+    "imageInspired": "/images/warband_fighters/sepulchral-guard-6-inspired.webp"
+  },
+  {
+    "id": "sepulchral-guard-7",
+    "warBand": "sepulchral-guard",
+    "imageDefault": "/images/warband_fighters/sepulchral-guard-7.webp",
+    "imageInspired": "/images/warband_fighters/sepulchral-guard-7-inspired.webp"
+  },
+  {
+    "id": "skabbiks-plaguepack-1",
+    "warBand": "skabbiks-plaguepack",
+    "imageDefault": "/images/warband_fighters/skabbiks-plaguepack-1.webp",
+    "imageInspired": "/images/warband_fighters/skabbiks-plaguepack-1-inspired.webp"
+  },
+  {
+    "id": "skabbiks-plaguepack-2",
+    "warBand": "skabbiks-plaguepack",
+    "imageDefault": "/images/warband_fighters/skabbiks-plaguepack-2.webp",
+    "imageInspired": "/images/warband_fighters/skabbiks-plaguepack-2-inspired.webp"
+  },
+  {
+    "id": "skabbiks-plaguepack-3",
+    "warBand": "skabbiks-plaguepack",
+    "imageDefault": "/images/warband_fighters/skabbiks-plaguepack-3.webp",
+    "imageInspired": "/images/warband_fighters/skabbiks-plaguepack-3-inspired.webp"
+  },
+  {
+    "id": "skabbiks-plaguepack-4",
+    "warBand": "skabbiks-plaguepack",
+    "imageDefault": "/images/warband_fighters/skabbiks-plaguepack-4.webp",
+    "imageInspired": "/images/warband_fighters/skabbiks-plaguepack-4-inspired.webp"
+  },
+  {
+    "id": "skabbiks-plaguepack-5",
+    "warBand": "skabbiks-plaguepack",
+    "imageDefault": "/images/warband_fighters/skabbiks-plaguepack-5.webp",
+    "imageInspired": "/images/warband_fighters/skabbiks-plaguepack-5-inspired.webp"
+  },
+  {
+    "id": "skabbiks-plaguepack-6",
+    "warBand": "skabbiks-plaguepack",
+    "imageDefault": "/images/warband_fighters/skabbiks-plaguepack-6.webp",
+    "imageInspired": "/images/warband_fighters/skabbiks-plaguepack-6-inspired.webp"
+  },
+  {
+    "id": "skaeths-wild-hunt-1",
+    "warBand": "skaeths-wild-hunt",
+    "imageDefault": "/images/warband_fighters/skaeths-wild-hunt-1.webp",
+    "imageInspired": "/images/warband_fighters/skaeths-wild-hunt-1-inspired.webp"
+  },
+  {
+    "id": "skaeths-wild-hunt-2",
+    "warBand": "skaeths-wild-hunt",
+    "imageDefault": "/images/warband_fighters/skaeths-wild-hunt-2.webp",
+    "imageInspired": "/images/warband_fighters/skaeths-wild-hunt-2-inspired.webp"
+  },
+  {
+    "id": "skaeths-wild-hunt-3",
+    "warBand": "skaeths-wild-hunt",
+    "imageDefault": "/images/warband_fighters/skaeths-wild-hunt-3.webp",
+    "imageInspired": "/images/warband_fighters/skaeths-wild-hunt-3-inspired.webp"
+  },
+  {
+    "id": "skaeths-wild-hunt-4",
+    "warBand": "skaeths-wild-hunt",
+    "imageDefault": "/images/warband_fighters/skaeths-wild-hunt-4.webp",
+    "imageInspired": "/images/warband_fighters/skaeths-wild-hunt-4-inspired.webp"
+  },
+  {
+    "id": "skaeths-wild-hunt-5",
+    "warBand": "skaeths-wild-hunt",
+    "imageDefault": "/images/warband_fighters/skaeths-wild-hunt-5.webp",
+    "imageInspired": "/images/warband_fighters/skaeths-wild-hunt-5-inspired.webp"
+  },
+  {
+    "id": "skittershanks-clawpack-1",
+    "warBand": "skittershanks-clawpack",
+    "imageDefault": "/images/warband_fighters/skittershanks-clawpack-1.webp",
+    "imageInspired": "/images/warband_fighters/skittershanks-clawpack-1-inspired.webp"
+  },
+  {
+    "id": "skittershanks-clawpack-2",
+    "warBand": "skittershanks-clawpack",
+    "imageDefault": "/images/warband_fighters/skittershanks-clawpack-2.webp",
+    "imageInspired": "/images/warband_fighters/skittershanks-clawpack-2-inspired.webp"
+  },
+  {
+    "id": "skittershanks-clawpack-3",
+    "warBand": "skittershanks-clawpack",
+    "imageDefault": "/images/warband_fighters/skittershanks-clawpack-3.webp",
+    "imageInspired": "/images/warband_fighters/skittershanks-clawpack-3-inspired.webp"
+  },
+  {
+    "id": "skittershanks-clawpack-4",
+    "warBand": "skittershanks-clawpack",
+    "imageDefault": "/images/warband_fighters/skittershanks-clawpack-4.webp",
+    "imageInspired": "/images/warband_fighters/skittershanks-clawpack-4-inspired.webp"
+  },
+  {
+    "id": "skittershanks-clawpack-5",
+    "warBand": "skittershanks-clawpack",
+    "imageDefault": "/images/warband_fighters/skittershanks-clawpack-5.webp",
+    "imageInspired": "/images/warband_fighters/skittershanks-clawpack-5-inspired.webp"
+  },
+  {
+    "id": "sons-of-velmorn-1",
+    "warBand": "sons-of-velmorn",
+    "imageDefault": "/images/warband_fighters/sons-of-velmorn-1.webp",
+    "imageInspired": "/images/warband_fighters/sons-of-velmorn-1-inspired.webp"
+  },
+  {
+    "id": "sons-of-velmorn-2",
+    "warBand": "sons-of-velmorn",
+    "imageDefault": "/images/warband_fighters/sons-of-velmorn-2.webp",
+    "imageInspired": "/images/warband_fighters/sons-of-velmorn-2-inspired.webp"
+  },
+  {
+    "id": "sons-of-velmorn-3",
+    "warBand": "sons-of-velmorn",
+    "imageDefault": "/images/warband_fighters/sons-of-velmorn-3.webp",
+    "imageInspired": "/images/warband_fighters/sons-of-velmorn-3-inspired.webp"
+  },
+  {
+    "id": "sons-of-velmorn-4",
+    "warBand": "sons-of-velmorn",
+    "imageDefault": "/images/warband_fighters/sons-of-velmorn-4.webp",
+    "imageInspired": "/images/warband_fighters/sons-of-velmorn-4-inspired.webp"
+  },
+  {
+    "id": "sons-of-velmorn-5",
+    "warBand": "sons-of-velmorn",
+    "imageDefault": "/images/warband_fighters/sons-of-velmorn-5.webp",
+    "imageInspired": "/images/warband_fighters/sons-of-velmorn-5-inspired.webp"
+  },
+  {
+    "id": "spiteclaws-swarm-1",
+    "warBand": "spiteclaws-swarm",
+    "imageDefault": "/images/warband_fighters/spiteclaws-swarm-1.webp",
+    "imageInspired": "/images/warband_fighters/spiteclaws-swarm-1-inspired.webp"
+  },
+  {
+    "id": "spiteclaws-swarm-2",
+    "warBand": "spiteclaws-swarm",
+    "imageDefault": "/images/warband_fighters/spiteclaws-swarm-2.webp",
+    "imageInspired": "/images/warband_fighters/spiteclaws-swarm-2-inspired.webp"
+  },
+  {
+    "id": "spiteclaws-swarm-3",
+    "warBand": "spiteclaws-swarm",
+    "imageDefault": "/images/warband_fighters/spiteclaws-swarm-3.webp",
+    "imageInspired": "/images/warband_fighters/spiteclaws-swarm-3-inspired.webp"
+  },
+  {
+    "id": "spiteclaws-swarm-4",
+    "warBand": "spiteclaws-swarm",
+    "imageDefault": "/images/warband_fighters/spiteclaws-swarm-4.webp",
+    "imageInspired": "/images/warband_fighters/spiteclaws-swarm-4-inspired.webp"
+  },
+  {
+    "id": "spiteclaws-swarm-5",
+    "warBand": "spiteclaws-swarm",
+    "imageDefault": "/images/warband_fighters/spiteclaws-swarm-5.webp",
+    "imageInspired": "/images/warband_fighters/spiteclaws-swarm-5-inspired.webp"
+  },
+  {
+    "id": "steelhearts-champions-1",
+    "warBand": "steelhearts-champions",
+    "imageDefault": "/images/warband_fighters/steelhearts-champions-1.webp",
+    "imageInspired": "/images/warband_fighters/steelhearts-champions-1-inspired.webp"
+  },
+  {
+    "id": "steelhearts-champions-2",
+    "warBand": "steelhearts-champions",
+    "imageDefault": "/images/warband_fighters/steelhearts-champions-2.webp",
+    "imageInspired": "/images/warband_fighters/steelhearts-champions-2-inspired.webp"
+  },
+  {
+    "id": "steelhearts-champions-3",
+    "warBand": "steelhearts-champions",
+    "imageDefault": "/images/warband_fighters/steelhearts-champions-3.webp",
+    "imageInspired": "/images/warband_fighters/steelhearts-champions-3-inspired.webp"
+  },
+  {
+    "id": "storm-of-celestus-1",
+    "warBand": "storm-of-celestus",
+    "imageDefault": "/images/warband_fighters/storm-of-celestus-1.webp",
+    "imageInspired": "/images/warband_fighters/storm-of-celestus-1-inspired.webp"
+  },
+  {
+    "id": "storm-of-celestus-2",
+    "warBand": "storm-of-celestus",
+    "imageDefault": "/images/warband_fighters/storm-of-celestus-2.webp",
+    "imageInspired": "/images/warband_fighters/storm-of-celestus-2-inspired.webp"
+  },
+  {
+    "id": "storm-of-celestus-3",
+    "warBand": "storm-of-celestus",
+    "imageDefault": "/images/warband_fighters/storm-of-celestus-3.webp",
+    "imageInspired": "/images/warband_fighters/storm-of-celestus-3-inspired.webp"
+  },
+  {
+    "id": "storm-of-celestus-4",
+    "warBand": "storm-of-celestus",
+    "imageDefault": "/images/warband_fighters/storm-of-celestus-4.webp",
+    "imageInspired": "/images/warband_fighters/storm-of-celestus-4-inspired.webp"
+  },
+  {
+    "id": "stormsires-cursebreakers-1",
+    "warBand": "stormsires-cursebreakers",
+    "imageDefault": "/images/warband_fighters/stormsires-cursebreakers-1.webp",
+    "imageInspired": "/images/warband_fighters/stormsires-cursebreakers-1-inspired.webp"
+  },
+  {
+    "id": "stormsires-cursebreakers-2",
+    "warBand": "stormsires-cursebreakers",
+    "imageDefault": "/images/warband_fighters/stormsires-cursebreakers-2.webp",
+    "imageInspired": "/images/warband_fighters/stormsires-cursebreakers-2-inspired.webp"
+  },
+  {
+    "id": "stormsires-cursebreakers-3",
+    "warBand": "stormsires-cursebreakers",
+    "imageDefault": "/images/warband_fighters/stormsires-cursebreakers-3.webp",
+    "imageInspired": "/images/warband_fighters/stormsires-cursebreakers-3-inspired.webp"
+  },
+  {
+    "id": "thanateks-tithe-1",
+    "warBand": "thanateks-tithe",
+    "imageDefault": "/images/warband_fighters/thanateks-tithe-1.webp",
+    "imageInspired": "/images/warband_fighters/thanateks-tithe-1-inspired.webp"
+  },
+  {
+    "id": "thanateks-tithe-2",
+    "warBand": "thanateks-tithe",
+    "imageDefault": "/images/warband_fighters/thanateks-tithe-2.webp",
+    "imageInspired": "/images/warband_fighters/thanateks-tithe-2-inspired.webp"
+  },
+  {
+    "id": "thanateks-tithe-3",
+    "warBand": "thanateks-tithe",
+    "imageDefault": "/images/warband_fighters/thanateks-tithe-3.webp",
+    "imageInspired": "/images/warband_fighters/thanateks-tithe-3-inspired.webp"
+  },
+  {
+    "id": "thanateks-tithe-4",
+    "warBand": "thanateks-tithe",
+    "imageDefault": "/images/warband_fighters/thanateks-tithe-4.webp",
+    "imageInspired": "/images/warband_fighters/thanateks-tithe-4-inspired.webp"
+  },
+  {
+    "id": "thanateks-tithe-5",
+    "warBand": "thanateks-tithe",
+    "imageDefault": "/images/warband_fighters/thanateks-tithe-5.webp",
+    "imageInspired": "/images/warband_fighters/thanateks-tithe-5-inspired.webp"
+  },
+  {
+    "id": "the-chosen-axes-1",
+    "warBand": "the-chosen-axes",
+    "imageDefault": "/images/warband_fighters/the-chosen-axes-1.webp",
+    "imageInspired": "/images/warband_fighters/the-chosen-axes-1-inspired.webp"
+  },
+  {
+    "id": "the-chosen-axes-2",
+    "warBand": "the-chosen-axes",
+    "imageDefault": "/images/warband_fighters/the-chosen-axes-2.webp",
+    "imageInspired": "/images/warband_fighters/the-chosen-axes-2-inspired.webp"
+  },
+  {
+    "id": "the-chosen-axes-3",
+    "warBand": "the-chosen-axes",
+    "imageDefault": "/images/warband_fighters/the-chosen-axes-3.webp",
+    "imageInspired": "/images/warband_fighters/the-chosen-axes-3-inspired.webp"
+  },
+  {
+    "id": "the-chosen-axes-4",
+    "warBand": "the-chosen-axes",
+    "imageDefault": "/images/warband_fighters/the-chosen-axes-4.webp",
+    "imageInspired": "/images/warband_fighters/the-chosen-axes-4-inspired.webp"
+  },
+  {
+    "id": "the-crimson-court-1",
+    "warBand": "the-crimson-court",
+    "imageDefault": "/images/warband_fighters/the-crimson-court-1.webp",
+    "imageInspired": "/images/warband_fighters/the-crimson-court-1-inspired.webp"
+  },
+  {
+    "id": "the-crimson-court-2",
+    "warBand": "the-crimson-court",
+    "imageDefault": "/images/warband_fighters/the-crimson-court-2.webp",
+    "imageInspired": "/images/warband_fighters/the-crimson-court-2-inspired.webp"
+  },
+  {
+    "id": "the-crimson-court-3",
+    "warBand": "the-crimson-court",
+    "imageDefault": "/images/warband_fighters/the-crimson-court-3.webp",
+    "imageInspired": "/images/warband_fighters/the-crimson-court-3-inspired.webp"
+  },
+  {
+    "id": "the-crimson-court-4",
+    "warBand": "the-crimson-court",
+    "imageDefault": "/images/warband_fighters/the-crimson-court-4.webp",
+    "imageInspired": "/images/warband_fighters/the-crimson-court-4-inspired.webp"
+  },
+  {
+    "id": "the-dread-pageant-1",
+    "warBand": "the-dread-pageant",
+    "imageDefault": "/images/warband_fighters/the-dread-pageant-1.webp",
+    "imageInspired": "/images/warband_fighters/the-dread-pageant-1-inspired.webp"
+  },
+  {
+    "id": "the-dread-pageant-2",
+    "warBand": "the-dread-pageant",
+    "imageDefault": "/images/warband_fighters/the-dread-pageant-2.webp",
+    "imageInspired": "/images/warband_fighters/the-dread-pageant-2-inspired.webp"
+  },
+  {
+    "id": "the-dread-pageant-3",
+    "warBand": "the-dread-pageant",
+    "imageDefault": "/images/warband_fighters/the-dread-pageant-3.webp",
+    "imageInspired": "/images/warband_fighters/the-dread-pageant-3-inspired.webp"
+  },
+  {
+    "id": "the-dread-pageant-4",
+    "warBand": "the-dread-pageant",
+    "imageDefault": "/images/warband_fighters/the-dread-pageant-4.webp",
+    "imageInspired": "/images/warband_fighters/the-dread-pageant-4-inspired.webp"
+  },
+  {
+    "id": "the-emberwatch-1",
+    "warBand": "the-emberwatch",
+    "imageDefault": "/images/warband_fighters/the-emberwatch-1.webp",
+    "imageInspired": "/images/warband_fighters/the-emberwatch-1-inspired.webp"
+  },
+  {
+    "id": "the-emberwatch-2",
+    "warBand": "the-emberwatch",
+    "imageDefault": "/images/warband_fighters/the-emberwatch-2.webp",
+    "imageInspired": "/images/warband_fighters/the-emberwatch-2-inspired.webp"
+  },
+  {
+    "id": "the-emberwatch-3",
+    "warBand": "the-emberwatch",
+    "imageDefault": "/images/warband_fighters/the-emberwatch-3.webp",
+    "imageInspired": "/images/warband_fighters/the-emberwatch-3-inspired.webp"
+  },
+  {
+    "id": "the-exiled-dead-1",
+    "warBand": "the-exiled-dead",
+    "imageDefault": "/images/warband_fighters/the-exiled-dead-1.webp",
+    "imageInspired": "/images/warband_fighters/the-exiled-dead-1-inspired.webp"
+  },
+  {
+    "id": "the-exiled-dead-2",
+    "warBand": "the-exiled-dead",
+    "imageDefault": "/images/warband_fighters/the-exiled-dead-2.webp",
+    "imageInspired": "/images/warband_fighters/the-exiled-dead-2-inspired.webp"
+  },
+  {
+    "id": "the-exiled-dead-3",
+    "warBand": "the-exiled-dead",
+    "imageDefault": "/images/warband_fighters/the-exiled-dead-3.webp",
+    "imageInspired": "/images/warband_fighters/the-exiled-dead-3-inspired.webp"
+  },
+  {
+    "id": "the-exiled-dead-4",
+    "warBand": "the-exiled-dead",
+    "imageDefault": "/images/warband_fighters/the-exiled-dead-4.webp",
+    "imageInspired": "/images/warband_fighters/the-exiled-dead-4-inspired.webp"
+  },
+  {
+    "id": "the-exiled-dead-5",
+    "warBand": "the-exiled-dead",
+    "imageDefault": "/images/warband_fighters/the-exiled-dead-5.webp",
+    "imageInspired": "/images/warband_fighters/the-exiled-dead-5-inspired.webp"
+  },
+  {
+    "id": "the-exiled-dead-6",
+    "warBand": "the-exiled-dead",
+    "imageDefault": "/images/warband_fighters/the-exiled-dead-6.webp",
+    "imageInspired": "/images/warband_fighters/the-exiled-dead-6-inspired.webp"
+  },
+  {
+    "id": "the-exiled-dead-7",
+    "warBand": "the-exiled-dead",
+    "imageDefault": "/images/warband_fighters/the-exiled-dead-7.webp",
+    "imageInspired": "/images/warband_fighters/the-exiled-dead-7-inspired.webp"
+  },
+  {
+    "id": "the-farstriders-1",
+    "warBand": "the-farstriders",
+    "imageDefault": "/images/warband_fighters/the-farstriders-1.webp",
+    "imageInspired": "/images/warband_fighters/the-farstriders-1-inspired.webp"
+  },
+  {
+    "id": "the-farstriders-2",
+    "warBand": "the-farstriders",
+    "imageDefault": "/images/warband_fighters/the-farstriders-2.webp",
+    "imageInspired": "/images/warband_fighters/the-farstriders-2-inspired.webp"
+  },
+  {
+    "id": "the-farstriders-3",
+    "warBand": "the-farstriders",
+    "imageDefault": "/images/warband_fighters/the-farstriders-3.webp",
+    "imageInspired": "/images/warband_fighters/the-farstriders-3-inspired.webp"
+  },
+  {
+    "id": "the-grymwatch-1",
+    "warBand": "the-grymwatch",
+    "imageDefault": "/images/warband_fighters/the-grymwatch-1.webp",
+    "imageInspired": "/images/warband_fighters/the-grymwatch-1-inspired.webp"
+  },
+  {
+    "id": "the-grymwatch-2",
+    "warBand": "the-grymwatch",
+    "imageDefault": "/images/warband_fighters/the-grymwatch-2.webp",
+    "imageInspired": "/images/warband_fighters/the-grymwatch-2-inspired.webp"
+  },
+  {
+    "id": "the-grymwatch-3",
+    "warBand": "the-grymwatch",
+    "imageDefault": "/images/warband_fighters/the-grymwatch-3.webp",
+    "imageInspired": "/images/warband_fighters/the-grymwatch-3-inspired.webp"
+  },
+  {
+    "id": "the-grymwatch-4",
+    "warBand": "the-grymwatch",
+    "imageDefault": "/images/warband_fighters/the-grymwatch-4.webp",
+    "imageInspired": "/images/warband_fighters/the-grymwatch-4-inspired.webp"
+  },
+  {
+    "id": "the-grymwatch-5",
+    "warBand": "the-grymwatch",
+    "imageDefault": "/images/warband_fighters/the-grymwatch-5.webp",
+    "imageInspired": "/images/warband_fighters/the-grymwatch-5-inspired.webp"
+  },
+  {
+    "id": "the-grymwatch-6",
+    "warBand": "the-grymwatch",
+    "imageDefault": "/images/warband_fighters/the-grymwatch-6.webp",
+    "imageInspired": "/images/warband_fighters/the-grymwatch-6-inspired.webp"
+  },
+  {
+    "id": "the-grymwatch-7",
+    "warBand": "the-grymwatch",
+    "imageDefault": "/images/warband_fighters/the-grymwatch-7.webp",
+    "imageInspired": "/images/warband_fighters/the-grymwatch-7-inspired.webp"
+  },
+  {
+    "id": "the-headsmens-curse-1",
+    "warBand": "the-headsmens-curse",
+    "imageDefault": "/images/warband_fighters/the-headsmens-curse-1.webp",
+    "imageInspired": "/images/warband_fighters/the-headsmens-curse-1-inspired.webp"
+  },
+  {
+    "id": "the-headsmens-curse-2",
+    "warBand": "the-headsmens-curse",
+    "imageDefault": "/images/warband_fighters/the-headsmens-curse-2.webp",
+    "imageInspired": "/images/warband_fighters/the-headsmens-curse-2-inspired.webp"
+  },
+  {
+    "id": "the-headsmens-curse-3",
+    "warBand": "the-headsmens-curse",
+    "imageDefault": "/images/warband_fighters/the-headsmens-curse-3.webp",
+    "imageInspired": "/images/warband_fighters/the-headsmens-curse-3-inspired.webp"
+  },
+  {
+    "id": "the-headsmens-curse-4",
+    "warBand": "the-headsmens-curse",
+    "imageDefault": "/images/warband_fighters/the-headsmens-curse-4.webp",
+    "imageInspired": "/images/warband_fighters/the-headsmens-curse-4-inspired.webp"
+  },
+  {
+    "id": "the-shadeborn-1",
+    "warBand": "the-shadeborn",
+    "imageDefault": "/images/warband_fighters/the-shadeborn-1.webp",
+    "imageInspired": "/images/warband_fighters/the-shadeborn-1-inspired.webp"
+  },
+  {
+    "id": "the-shadeborn-2",
+    "warBand": "the-shadeborn",
+    "imageDefault": "/images/warband_fighters/the-shadeborn-2.webp",
+    "imageInspired": "/images/warband_fighters/the-shadeborn-2-inspired.webp"
+  },
+  {
+    "id": "the-shadeborn-3",
+    "warBand": "the-shadeborn",
+    "imageDefault": "/images/warband_fighters/the-shadeborn-3.webp",
+    "imageInspired": "/images/warband_fighters/the-shadeborn-3-inspired.webp"
+  },
+  {
+    "id": "the-shadeborn-4",
+    "warBand": "the-shadeborn",
+    "imageDefault": "/images/warband_fighters/the-shadeborn-4.webp",
+    "imageInspired": "/images/warband_fighters/the-shadeborn-4-inspired.webp"
+  },
+  {
+    "id": "the-skinnerkin-1",
+    "warBand": "the-skinnerkin",
+    "imageDefault": "/images/warband_fighters/the-skinnerkin-1.webp",
+    "imageInspired": "/images/warband_fighters/the-skinnerkin-1-inspired.webp"
+  },
+  {
+    "id": "the-skinnerkin-2",
+    "warBand": "the-skinnerkin",
+    "imageDefault": "/images/warband_fighters/the-skinnerkin-2.webp",
+    "imageInspired": "/images/warband_fighters/the-skinnerkin-2-inspired.webp"
+  },
+  {
+    "id": "the-skinnerkin-3",
+    "warBand": "the-skinnerkin",
+    "imageDefault": "/images/warband_fighters/the-skinnerkin-3.webp",
+    "imageInspired": "/images/warband_fighters/the-skinnerkin-3-inspired.webp"
+  },
+  {
+    "id": "the-skinnerkin-4",
+    "warBand": "the-skinnerkin",
+    "imageDefault": "/images/warband_fighters/the-skinnerkin-4.webp",
+    "imageInspired": "/images/warband_fighters/the-skinnerkin-4-inspired.webp"
+  },
+  {
+    "id": "the-skinnerkin-5",
+    "warBand": "the-skinnerkin",
+    "imageDefault": "/images/warband_fighters/the-skinnerkin-5.webp",
+    "imageInspired": "/images/warband_fighters/the-skinnerkin-5-inspired.webp"
+  },
+  {
+    "id": "the-starblood-stalkers-1",
+    "warBand": "the-starblood-stalkers",
+    "imageDefault": "/images/warband_fighters/the-starblood-stalkers-1.webp",
+    "imageInspired": "/images/warband_fighters/the-starblood-stalkers-1-inspired.webp"
+  },
+  {
+    "id": "the-starblood-stalkers-2",
+    "warBand": "the-starblood-stalkers",
+    "imageDefault": "/images/warband_fighters/the-starblood-stalkers-2.webp",
+    "imageInspired": "/images/warband_fighters/the-starblood-stalkers-2-inspired.webp"
+  },
+  {
+    "id": "the-starblood-stalkers-3",
+    "warBand": "the-starblood-stalkers",
+    "imageDefault": "/images/warband_fighters/the-starblood-stalkers-3.webp",
+    "imageInspired": "/images/warband_fighters/the-starblood-stalkers-3-inspired.webp"
+  },
+  {
+    "id": "the-starblood-stalkers-4",
+    "warBand": "the-starblood-stalkers",
+    "imageDefault": "/images/warband_fighters/the-starblood-stalkers-4.webp",
+    "imageInspired": "/images/warband_fighters/the-starblood-stalkers-4-inspired.webp"
+  },
+  {
+    "id": "the-starblood-stalkers-5",
+    "warBand": "the-starblood-stalkers",
+    "imageDefault": "/images/warband_fighters/the-starblood-stalkers-5.webp",
+    "imageInspired": "/images/warband_fighters/the-starblood-stalkers-5-inspired.webp"
+  },
+  {
+    "id": "the-starblood-stalkers-6",
+    "warBand": "the-starblood-stalkers",
+    "imageDefault": "/images/warband_fighters/the-starblood-stalkers-6.webp",
+    "imageInspired": "/images/warband_fighters/the-starblood-stalkers-6-inspired.webp"
+  },
+  {
+    "id": "the-thricefold-discord-1",
+    "warBand": "the-thricefold-discord",
+    "imageDefault": "/images/warband_fighters/the-thricefold-discord-1.webp",
+    "imageInspired": "/images/warband_fighters/the-thricefold-discord-1-inspired.webp"
+  },
+  {
+    "id": "the-thricefold-discord-2",
+    "warBand": "the-thricefold-discord",
+    "imageDefault": "/images/warband_fighters/the-thricefold-discord-2.webp",
+    "imageInspired": "/images/warband_fighters/the-thricefold-discord-2-inspired.webp"
+  },
+  {
+    "id": "the-thricefold-discord-3",
+    "warBand": "the-thricefold-discord",
+    "imageDefault": "/images/warband_fighters/the-thricefold-discord-3.webp",
+    "imageInspired": "/images/warband_fighters/the-thricefold-discord-3-inspired.webp"
+  },
+  {
+    "id": "the-wurmspat-1",
+    "warBand": "the-wurmspat",
+    "imageDefault": "/images/warband_fighters/the-wurmspat-1.webp",
+    "imageInspired": "/images/warband_fighters/the-wurmspat-1-inspired.webp"
+  },
+  {
+    "id": "the-wurmspat-2",
+    "warBand": "the-wurmspat",
+    "imageDefault": "/images/warband_fighters/the-wurmspat-2.webp",
+    "imageInspired": "/images/warband_fighters/the-wurmspat-2-inspired.webp"
+  },
+  {
+    "id": "the-wurmspat-3",
+    "warBand": "the-wurmspat",
+    "imageDefault": "/images/warband_fighters/the-wurmspat-3.webp",
+    "imageInspired": "/images/warband_fighters/the-wurmspat-3-inspired.webp"
+  },
+  {
+    "id": "thorns-of-the-briar-queen-1",
+    "warBand": "thorns-of-the-briar-queen",
+    "imageDefault": "/images/warband_fighters/thorns-of-the-briar-queen-1.webp",
+    "imageInspired": "/images/warband_fighters/thorns-of-the-briar-queen-1-inspired.webp"
+  },
+  {
+    "id": "thorns-of-the-briar-queen-2",
+    "warBand": "thorns-of-the-briar-queen",
+    "imageDefault": "/images/warband_fighters/thorns-of-the-briar-queen-2.webp",
+    "imageInspired": "/images/warband_fighters/thorns-of-the-briar-queen-2-inspired.webp"
+  },
+  {
+    "id": "thorns-of-the-briar-queen-3",
+    "warBand": "thorns-of-the-briar-queen",
+    "imageDefault": "/images/warband_fighters/thorns-of-the-briar-queen-3.webp",
+    "imageInspired": "/images/warband_fighters/thorns-of-the-briar-queen-3-inspired.webp"
+  },
+  {
+    "id": "thorns-of-the-briar-queen-4",
+    "warBand": "thorns-of-the-briar-queen",
+    "imageDefault": "/images/warband_fighters/thorns-of-the-briar-queen-4.webp",
+    "imageInspired": "/images/warband_fighters/thorns-of-the-briar-queen-4-inspired.webp"
+  },
+  {
+    "id": "thorns-of-the-briar-queen-5",
+    "warBand": "thorns-of-the-briar-queen",
+    "imageDefault": "/images/warband_fighters/thorns-of-the-briar-queen-5.webp",
+    "imageInspired": "/images/warband_fighters/thorns-of-the-briar-queen-5-inspired.webp"
+  },
+  {
+    "id": "thorns-of-the-briar-queen-6",
+    "warBand": "thorns-of-the-briar-queen",
+    "imageDefault": "/images/warband_fighters/thorns-of-the-briar-queen-6.webp",
+    "imageInspired": "/images/warband_fighters/thorns-of-the-briar-queen-6-inspired.webp"
+  },
+  {
+    "id": "thorns-of-the-briar-queen-7",
+    "warBand": "thorns-of-the-briar-queen",
+    "imageDefault": "/images/warband_fighters/thorns-of-the-briar-queen-7.webp",
+    "imageInspired": "/images/warband_fighters/thorns-of-the-briar-queen-7-inspired.webp"
+  },
+  {
+    "id": "thundriks-profiteers-1",
+    "warBand": "thundriks-profiteers",
+    "imageDefault": "/images/warband_fighters/thundriks-profiteers-1.webp",
+    "imageInspired": "/images/warband_fighters/thundriks-profiteers-1-inspired.webp"
+  },
+  {
+    "id": "thundriks-profiteers-2",
+    "warBand": "thundriks-profiteers",
+    "imageDefault": "/images/warband_fighters/thundriks-profiteers-2.webp",
+    "imageInspired": "/images/warband_fighters/thundriks-profiteers-2-inspired.webp"
+  },
+  {
+    "id": "thundriks-profiteers-3",
+    "warBand": "thundriks-profiteers",
+    "imageDefault": "/images/warband_fighters/thundriks-profiteers-3.webp",
+    "imageInspired": "/images/warband_fighters/thundriks-profiteers-3-inspired.webp"
+  },
+  {
+    "id": "thundriks-profiteers-4",
+    "warBand": "thundriks-profiteers",
+    "imageDefault": "/images/warband_fighters/thundriks-profiteers-4.webp",
+    "imageInspired": "/images/warband_fighters/thundriks-profiteers-4-inspired.webp"
+  },
+  {
+    "id": "thundriks-profiteers-5",
+    "warBand": "thundriks-profiteers",
+    "imageDefault": "/images/warband_fighters/thundriks-profiteers-5.webp",
+    "imageInspired": "/images/warband_fighters/thundriks-profiteers-5-inspired.webp"
+  },
+  {
+    "id": "thyrielles-zephyrites-1",
+    "warBand": "thyrielles-zephyrites",
+    "imageDefault": "/images/warband_fighters/thyrielles-zephyrites-1.webp",
+    "imageInspired": "/images/warband_fighters/thyrielles-zephyrites-1-inspired.webp"
+  },
+  {
+    "id": "thyrielles-zephyrites-2",
+    "warBand": "thyrielles-zephyrites",
+    "imageDefault": "/images/warband_fighters/thyrielles-zephyrites-2.webp",
+    "imageInspired": "/images/warband_fighters/thyrielles-zephyrites-2-inspired.webp"
+  },
+  {
+    "id": "thyrielles-zephyrites-3",
+    "warBand": "thyrielles-zephyrites",
+    "imageDefault": "/images/warband_fighters/thyrielles-zephyrites-3.webp",
+    "imageInspired": "/images/warband_fighters/thyrielles-zephyrites-3-inspired.webp"
+  },
+  {
+    "id": "thyrielles-zephyrites-4",
+    "warBand": "thyrielles-zephyrites",
+    "imageDefault": "/images/warband_fighters/thyrielles-zephyrites-4.webp",
+    "imageInspired": "/images/warband_fighters/thyrielles-zephyrites-4-inspired.webp"
+  },
+  {
+    "id": "xandires-truthseekers-1",
+    "warBand": "xandires-truthseekers",
+    "imageDefault": "/images/warband_fighters/xandires-truthseekers-1.webp",
+    "imageInspired": "/images/warband_fighters/xandires-truthseekers-1-inspired.webp"
+  },
+  {
+    "id": "xandires-truthseekers-2",
+    "warBand": "xandires-truthseekers",
+    "imageDefault": "/images/warband_fighters/xandires-truthseekers-2.webp",
+    "imageInspired": "/images/warband_fighters/xandires-truthseekers-2-inspired.webp"
+  },
+  {
+    "id": "xandires-truthseekers-3",
+    "warBand": "xandires-truthseekers",
+    "imageDefault": "/images/warband_fighters/xandires-truthseekers-3.webp",
+    "imageInspired": "/images/warband_fighters/xandires-truthseekers-3-inspired.webp"
+  },
+  {
+    "id": "xandires-truthseekers-4",
+    "warBand": "xandires-truthseekers",
+    "imageDefault": "/images/warband_fighters/xandires-truthseekers-4.webp",
+    "imageInspired": "/images/warband_fighters/xandires-truthseekers-4-inspired.webp"
+  },
+  {
+    "id": "yltharis-guardians-1",
+    "warBand": "yltharis-guardians",
+    "imageDefault": "/images/warband_fighters/yltharis-guardians-1.webp",
+    "imageInspired": "/images/warband_fighters/yltharis-guardians-1-inspired.webp"
+  },
+  {
+    "id": "yltharis-guardians-2",
+    "warBand": "yltharis-guardians",
+    "imageDefault": "/images/warband_fighters/yltharis-guardians-2.webp",
+    "imageInspired": "/images/warband_fighters/yltharis-guardians-2-inspired.webp"
+  },
+  {
+    "id": "yltharis-guardians-3",
+    "warBand": "yltharis-guardians",
+    "imageDefault": "/images/warband_fighters/yltharis-guardians-3.webp",
+    "imageInspired": "/images/warband_fighters/yltharis-guardians-3-inspired.webp"
+  },
+  {
+    "id": "yltharis-guardians-4",
+    "warBand": "yltharis-guardians",
+    "imageDefault": "/images/warband_fighters/yltharis-guardians-4.webp",
+    "imageInspired": "/images/warband_fighters/yltharis-guardians-4-inspired.webp"
+  },
+  {
+    "id": "zarbags-gitz-1",
+    "warBand": "zarbags-gitz",
+    "imageDefault": "/images/warband_fighters/zarbags-gitz-1.webp",
+    "imageInspired": "/images/warband_fighters/zarbags-gitz-1-inspired.webp"
+  },
+  {
+    "id": "zarbags-gitz-2",
+    "warBand": "zarbags-gitz",
+    "imageDefault": "/images/warband_fighters/zarbags-gitz-2.webp",
+    "imageInspired": "/images/warband_fighters/zarbags-gitz-2-inspired.webp"
+  },
+  {
+    "id": "zarbags-gitz-3",
+    "warBand": "zarbags-gitz",
+    "imageDefault": "/images/warband_fighters/zarbags-gitz-3.webp",
+    "imageInspired": "/images/warband_fighters/zarbags-gitz-3-inspired.webp"
+  },
+  {
+    "id": "zarbags-gitz-4",
+    "warBand": "zarbags-gitz",
+    "imageDefault": "/images/warband_fighters/zarbags-gitz-4.webp",
+    "imageInspired": "/images/warband_fighters/zarbags-gitz-4-inspired.webp"
+  },
+  {
+    "id": "zarbags-gitz-5",
+    "warBand": "zarbags-gitz",
+    "imageDefault": "/images/warband_fighters/zarbags-gitz-5.webp",
+    "imageInspired": "/images/warband_fighters/zarbags-gitz-5-inspired.webp"
+  },
+  {
+    "id": "zarbags-gitz-6",
+    "warBand": "zarbags-gitz",
+    "imageDefault": "/images/warband_fighters/zarbags-gitz-6.webp",
+    "imageInspired": "/images/warband_fighters/zarbags-gitz-6-inspired.webp"
+  },
+  {
+    "id": "zarbags-gitz-7",
+    "warBand": "zarbags-gitz",
+    "imageDefault": "/images/warband_fighters/zarbags-gitz-7.webp",
+    "imageInspired": "/images/warband_fighters/zarbags-gitz-7-inspired.webp"
+  },
+  {
+    "id": "zarbags-gitz-8",
+    "warBand": "zarbags-gitz",
+    "imageDefault": "/images/warband_fighters/zarbags-gitz-8.webp",
+    "imageInspired": "/images/warband_fighters/zarbags-gitz-8-inspired.webp"
+  },
+  {
+    "id": "zarbags-gitz-9",
+    "warBand": "zarbags-gitz",
+    "imageDefault": "/images/warband_fighters/zarbags-gitz-9.webp",
+    "imageInspired": "/images/warband_fighters/zarbags-gitz-9-inspired.webp"
+  },
+  {
+    "id": "zikkits-tunnelpack-1",
+    "warBand": "zikkits-tunnelpack",
+    "imageDefault": "/images/warband_fighters/zikkits-tunnelpack-1.webp",
+    "imageInspired": "/images/warband_fighters/zikkits-tunnelpack-1-inspired.webp"
+  },
+  {
+    "id": "zikkits-tunnelpack-2",
+    "warBand": "zikkits-tunnelpack",
+    "imageDefault": "/images/warband_fighters/zikkits-tunnelpack-2.webp",
+    "imageInspired": "/images/warband_fighters/zikkits-tunnelpack-2-inspired.webp"
+  },
+  {
+    "id": "zikkits-tunnelpack-3",
+    "warBand": "zikkits-tunnelpack",
+    "imageDefault": "/images/warband_fighters/zikkits-tunnelpack-3.webp",
+    "imageInspired": "/images/warband_fighters/zikkits-tunnelpack-3-inspired.webp"
+  },
+  {
+    "id": "zikkits-tunnelpack-4",
+    "warBand": "zikkits-tunnelpack",
+    "imageDefault": "/images/warband_fighters/zikkits-tunnelpack-4.webp",
+    "imageInspired": "/images/warband_fighters/zikkits-tunnelpack-4-inspired.webp"
+  },
+  {
+    "id": "zikkits-tunnelpack-5",
+    "warBand": "zikkits-tunnelpack",
+    "imageDefault": "/images/warband_fighters/zikkits-tunnelpack-5.webp",
+    "imageInspired": "/images/warband_fighters/zikkits-tunnelpack-5-inspired.webp"
+  },
+  {
+    "id": "zondaras-gravebreakers-1",
+    "warBand": "zondaras-gravebreakers",
+    "imageDefault": "/images/warband_fighters/zondaras-gravebreakers-1.webp",
+    "imageInspired": "/images/warband_fighters/zondaras-gravebreakers-1-inspired.webp"
+  },
+  {
+    "id": "zondaras-gravebreakers-2",
+    "warBand": "zondaras-gravebreakers",
+    "imageDefault": "/images/warband_fighters/zondaras-gravebreakers-2.webp",
+    "imageInspired": "/images/warband_fighters/zondaras-gravebreakers-2-inspired.webp"
+  },
+  {
+    "id": "zondaras-gravebreakers-3",
+    "warBand": "zondaras-gravebreakers",
+    "imageDefault": "/images/warband_fighters/zondaras-gravebreakers-3.webp",
+    "imageInspired": "/images/warband_fighters/zondaras-gravebreakers-3-inspired.webp"
+  },
+  {
+    "id": "zondaras-gravebreakers-4",
+    "warBand": "zondaras-gravebreakers",
+    "imageDefault": "/images/warband_fighters/zondaras-gravebreakers-4.webp",
+    "imageInspired": "/images/warband_fighters/zondaras-gravebreakers-4-inspired.webp"
+  },
+  {
+    "id": "zondaras-gravebreakers-5",
+    "warBand": "zondaras-gravebreakers",
+    "imageDefault": "/images/warband_fighters/zondaras-gravebreakers-5.webp",
+    "imageInspired": "/images/warband_fighters/zondaras-gravebreakers-5-inspired.webp"
+  }
+]

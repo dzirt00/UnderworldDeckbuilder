@@ -1,0 +1,1099 @@
+[
+  {
+    "id": "blackpowders-buccaneers",
+    "fraction": "Destruction",
+    "name": "Blackpowders Buccaneers",
+    "icon": "/images/icon/warBands/blackpowders-buccaneers-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/blackpowders-buccaneers-0.webp"
+    ],
+    "fighters": [
+      "blackpowders-buccaneers-1",
+      "blackpowders-buccaneers-2",
+      "blackpowders-buccaneers-3",
+      "blackpowders-buccaneers-4",
+      "blackpowders-buccaneers-5"
+    ]
+  },
+  {
+    "id": "blood-of-the-bull",
+    "fraction": "Chaos",
+    "name": "Blood Of The Bull",
+    "icon": "/images/icon/warBands/blood-of-the-bull-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/blood-of-the-bull-0.webp"
+    ],
+    "fighters": [
+      "blood-of-the-bull-1",
+      "blood-of-the-bull-2",
+      "blood-of-the-bull-3",
+      "blood-of-the-bull-4",
+      "blood-of-the-bull-5"
+    ]
+  },
+  {
+    "id": "borgits-beastgrabbaz",
+    "fraction": "Destruction",
+    "name": "Borgits Beastgrabbaz",
+    "icon": "/images/icon/warBands/borgits-beastgrabbaz-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/borgits-beastgrabbaz-0.webp"
+    ],
+    "fighters": [
+      "borgits-beastgrabbaz-1",
+      "borgits-beastgrabbaz-2",
+      "borgits-beastgrabbaz-3",
+      "borgits-beastgrabbaz-4",
+      "borgits-beastgrabbaz-5"
+    ]
+  },
+  {
+    "id": "brethren-of-the-bolt",
+    "fraction": "Order",
+    "name": "Brethren Of The Bolt",
+    "icon": "/images/icon/warBands/brethren-of-the-bolt-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/brethren-of-the-bolt-0.webp"
+    ],
+    "fighters": [
+      "brethren-of-the-bolt-1",
+      "brethren-of-the-bolt-2",
+      "brethren-of-the-bolt-3",
+      "brethren-of-the-bolt-4",
+      "brethren-of-the-bolt-5"
+    ]
+  },
+  {
+    "id": "cyrenis-razors",
+    "fraction": "Order",
+    "name": "Cyrenis Razors",
+    "icon": "/images/icon/warBands/cyrenis-razors-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/cyrenis-razors-0.webp"
+    ],
+    "fighters": [
+      "cyrenis-razors-1",
+      "cyrenis-razors-2",
+      "cyrenis-razors-3",
+      "cyrenis-razors-4"
+    ]
+  },
+  {
+    "id": "da-kunnin-krew",
+    "fraction": "Destruction",
+    "name": "Da Kunnin Krew",
+    "icon": "/images/icon/warBands/da-kunnin-krew-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/da-kunnin-krew-0.webp"
+    ],
+    "fighters": [
+      "da-kunnin-krew-1",
+      "da-kunnin-krew-2",
+      "da-kunnin-krew-3",
+      "da-kunnin-krew-4",
+      "da-kunnin-krew-5"
+    ]
+  },
+  {
+    "id": "daggoks-stab-ladz",
+    "fraction": "Destruction",
+    "name": "Daggoks Stab Ladz",
+    "icon": "/images/icon/warBands/daggoks-stab-ladz-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/daggoks-stab-ladz-0.webp"
+    ],
+    "fighters": [
+      "daggoks-stab-ladz-1",
+      "daggoks-stab-ladz-2",
+      "daggoks-stab-ladz-3",
+      "daggoks-stab-ladz-4"
+    ]
+  },
+  {
+    "id": "domitans-stormcoven",
+    "fraction": "Order",
+    "name": "Domitans Stormcoven",
+    "icon": "/images/icon/warBands/domitans-stormcoven-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/Order-01.webp",
+      "/images/ability_sheet_warbands/Order-02.webp"
+    ],
+    "fighters": [
+      "domitans-stormcoven-1",
+      "domitans-stormcoven-2",
+      "domitans-stormcoven-3"
+    ]
+  },
+  {
+    "id": "drepurs-wraithcreepers",
+    "fraction": "Death",
+    "name": "Drepurs Wraithcreepers",
+    "icon": "/images/icon/warBands/drepurs-wraithcreepers-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/Death-01.webp",
+      "/images/ability_sheet_warbands/Death-02.webp"
+    ],
+    "fighters": [
+      "drepurs-wraithcreepers-1",
+      "drepurs-wraithcreepers-2",
+      "drepurs-wraithcreepers-3",
+      "drepurs-wraithcreepers-4"
+    ]
+  },
+  {
+    "id": "elathains-soulraid",
+    "fraction": "Order",
+    "name": "Elathains Soulraid",
+    "icon": "/images/icon/warBands/elathains-soulraid-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/elathains-soulraid-0.webp"
+    ],
+    "fighters": [
+      "elathains-soulraid-1",
+      "elathains-soulraid-2",
+      "elathains-soulraid-3",
+      "elathains-soulraid-4",
+      "elathains-soulraid-5"
+    ]
+  },
+  {
+    "id": "ephilims-pandaemonium",
+    "fraction": "Chaos",
+    "name": "Ephilims Pandaemonium",
+    "icon": "/images/icon/warBands/ephilims-pandaemonium-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/ephilims-pandaemonium-0.webp"
+    ],
+    "fighters": [
+      "ephilims-pandaemonium-1",
+      "ephilims-pandaemonium-2",
+      "ephilims-pandaemonium-3",
+      "ephilims-pandaemonium-4",
+      "ephilims-pandaemonium-5"
+    ]
+  },
+  {
+    "id": "eyes-of-the-nine",
+    "fraction": "Chaos",
+    "name": "Eyes Of The Nine",
+    "icon": "/images/icon/warBands/eyes-of-the-nine-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/Chaos-01.webp",
+      "/images/ability_sheet_warbands/Chaos-02.webp"
+    ],
+    "fighters": [
+      "eyes-of-the-nine-1",
+      "eyes-of-the-nine-2",
+      "eyes-of-the-nine-3",
+      "eyes-of-the-nine-4",
+      "eyes-of-the-nine-5",
+      "eyes-of-the-nine-6"
+    ]
+  },
+  {
+    "id": "garreks-reavers",
+    "fraction": "Chaos",
+    "name": "Garreks Reavers",
+    "icon": "/images/icon/warBands/garreks-reavers-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/Chaos-01.webp",
+      "/images/ability_sheet_warbands/Chaos-02.webp"
+    ],
+    "fighters": [
+      "garreks-reavers-1",
+      "garreks-reavers-2",
+      "garreks-reavers-3",
+      "garreks-reavers-4",
+      "garreks-reavers-5"
+    ]
+  },
+  {
+    "id": "gnarlspirit-pack",
+    "fraction": "Chaos",
+    "name": "Gnarlspirit Pack",
+    "icon": "/images/icon/warBands/gnarlspirit-pack-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/gnarlspirit-pack-0.webp"
+    ],
+    "fighters": [
+      "gnarlspirit-pack-1",
+      "gnarlspirit-pack-2",
+      "gnarlspirit-pack-3",
+      "gnarlspirit-pack-4"
+    ]
+  },
+  {
+    "id": "godsworn-hunt",
+    "fraction": "Chaos",
+    "name": "Godsworn Hunt",
+    "icon": "/images/icon/warBands/godsworn-hunt-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/Chaos-01.webp",
+      "/images/ability_sheet_warbands/Chaos-02.webp"
+    ],
+    "fighters": [
+      "godsworn-hunt-1",
+      "godsworn-hunt-2",
+      "godsworn-hunt-3",
+      "godsworn-hunt-4",
+      "godsworn-hunt-5",
+      "godsworn-hunt-6"
+    ]
+  },
+  {
+    "id": "gorechosen-of-dromm",
+    "fraction": "Chaos",
+    "name": "Gorechosen Of Dromm",
+    "icon": "/images/icon/warBands/gorechosen-of-dromm-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/gorechosen-of-dromm-0.webp"
+    ],
+    "fighters": [
+      "gorechosen-of-dromm-1",
+      "gorechosen-of-dromm-2",
+      "gorechosen-of-dromm-3"
+    ]
+  },
+  {
+    "id": "grandfathers-gardeners",
+    "fraction": "Chaos",
+    "name": "Grandfathers Gardeners",
+    "icon": "/images/icon/warBands/grandfathers-gardeners-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/grandfathers-gardeners-0.webp"
+    ],
+    "fighters": [
+      "grandfathers-gardeners-1",
+      "grandfathers-gardeners-2",
+      "grandfathers-gardeners-3",
+      "grandfathers-gardeners-4",
+      "grandfathers-gardeners-5"
+    ]
+  },
+  {
+    "id": "grashraks-despoilers",
+    "fraction": "Chaos",
+    "name": "Grashraks Despoilers",
+    "icon": "/images/icon/warBands/grashraks-despoilers-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/Chaos-01.webp",
+      "/images/ability_sheet_warbands/Chaos-02.webp"
+    ],
+    "fighters": [
+      "grashraks-despoilers-1",
+      "grashraks-despoilers-2",
+      "grashraks-despoilers-3",
+      "grashraks-despoilers-4",
+      "grashraks-despoilers-5",
+      "grashraks-despoilers-6"
+    ]
+  },
+  {
+    "id": "grinkraks-looncourt",
+    "fraction": "Destruction",
+    "name": "Grinkraks Looncourt",
+    "icon": "/images/icon/warBands/grinkraks-looncourt-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/grinkraks-looncourt-0.webp"
+    ],
+    "fighters": [
+      "grinkraks-looncourt-1",
+      "grinkraks-looncourt-2",
+      "grinkraks-looncourt-3",
+      "grinkraks-looncourt-4",
+      "grinkraks-looncourt-5",
+      "grinkraks-looncourt-6",
+      "grinkraks-looncourt-7"
+    ]
+  },
+  {
+    "id": "gryselles-arenai",
+    "fraction": "Order",
+    "name": "Gryselles Arenai",
+    "icon": "/images/icon/warBands/gryselles-arenai-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/Order-01.webp",
+      "/images/ability_sheet_warbands/Order-02.webp"
+    ],
+    "fighters": [
+      "gryselles-arenai-1",
+      "gryselles-arenai-2",
+      "gryselles-arenai-3",
+      "gryselles-arenai-4",
+      "gryselles-arenai-5"
+    ]
+  },
+  {
+    "id": "hedkrakkas-madmob",
+    "fraction": "Destruction",
+    "name": "Hedkrakkas Madmob",
+    "icon": "/images/icon/warBands/hedkrakkas-madmob-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/Destruction-01.webp",
+      "/images/ability_sheet_warbands/Destruction-02.webp"
+    ],
+    "fighters": [
+      "hedkrakkas-madmob-1",
+      "hedkrakkas-madmob-2",
+      "hedkrakkas-madmob-3",
+      "hedkrakkas-madmob-4"
+    ]
+  },
+  {
+    "id": "hexbanes-hunters",
+    "fraction": "Order",
+    "name": "Hexbanes Hunters",
+    "icon": "/images/icon/warBands/hexbanes-hunters-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/hexbanes-hunters-0.webp"
+    ],
+    "fighters": [
+      "hexbanes-hunters-1",
+      "hexbanes-hunters-2",
+      "hexbanes-hunters-3",
+      "hexbanes-hunters-4",
+      "hexbanes-hunters-5",
+      "hexbanes-hunters-6"
+    ]
+  },
+  {
+    "id": "hrothgorns-mantrappers",
+    "fraction": "Destruction",
+    "name": "Hrothgorns Mantrappers",
+    "icon": "/images/icon/warBands/hrothgorns-mantrappers-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/hrothgorns-mantrappers-0.webp"
+    ],
+    "fighters": [
+      "hrothgorns-mantrappers-1",
+      "hrothgorns-mantrappers-2",
+      "hrothgorns-mantrappers-3",
+      "hrothgorns-mantrappers-4",
+      "hrothgorns-mantrappers-5"
+    ]
+  },
+  {
+    "id": "ironskulls-boyz",
+    "fraction": "Destruction",
+    "name": "Ironskulls Boyz",
+    "icon": "/images/icon/warBands/ironskulls-boyz-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/Destruction-01.webp",
+      "/images/ability_sheet_warbands/Destruction-02.webp"
+    ],
+    "fighters": [
+      "ironskulls-boyz-1",
+      "ironskulls-boyz-2",
+      "ironskulls-boyz-3",
+      "ironskulls-boyz-4"
+    ]
+  },
+  {
+    "id": "ironsouls-condemners",
+    "fraction": "Order",
+    "name": "Ironsouls Condemners",
+    "icon": "/images/icon/warBands/ironsouls-condemners-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/ironsouls-condemners-0.webp"
+    ],
+    "fighters": [
+      "ironsouls-condemners-1",
+      "ironsouls-condemners-2",
+      "ironsouls-condemners-3"
+    ]
+  },
+  {
+    "id": "jaws-of-itzl",
+    "fraction": "Order",
+    "name": "Jaws Of Itzl",
+    "icon": "/images/icon/warBands/jaws-of-itzl-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/jaws-of-itzl-0.webp"
+    ],
+    "fighters": [
+      "jaws-of-itzl-1",
+      "jaws-of-itzl-2",
+      "jaws-of-itzl-3",
+      "jaws-of-itzl-4"
+    ]
+  },
+  {
+    "id": "kainans-reapers",
+    "fraction": "Death",
+    "name": "Kainans Reapers",
+    "icon": "/images/icon/warBands/kainans-reapers-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/kainans-reapers-0.webp"
+    ],
+    "fighters": [
+      "kainans-reapers-1",
+      "kainans-reapers-2",
+      "kainans-reapers-3",
+      "kainans-reapers-4",
+      "kainans-reapers-5",
+      "kainans-reapers-6"
+    ]
+  },
+  {
+    "id": "kamandoras-blades",
+    "fraction": "Chaos",
+    "name": "Kamandoras Blades",
+    "icon": "/images/icon/warBands/kamandoras-blades-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/kamandoras-blades-0.webp"
+    ],
+    "fighters": [
+      "kamandoras-blades-1",
+      "kamandoras-blades-2",
+      "kamandoras-blades-3",
+      "kamandoras-blades-4",
+      "kamandoras-blades-5"
+    ]
+  },
+  {
+    "id": "khagras-ravagers",
+    "fraction": "Chaos",
+    "name": "Khagras Ravagers",
+    "icon": "/images/icon/warBands/khagras-ravagers-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/khagras-ravagers-0.webp"
+    ],
+    "fighters": [
+      "khagras-ravagers-1",
+      "khagras-ravagers-2",
+      "khagras-ravagers-3",
+      "khagras-ravagers-4"
+    ]
+  },
+  {
+    "id": "knives-of-the-crone",
+    "fraction": "Order",
+    "name": "Knives Of The Crone",
+    "icon": "/images/icon/warBands/knives-of-the-crone-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/knives-of-the-crone-0.webp"
+    ],
+    "fighters": [
+      "knives-of-the-crone-1",
+      "knives-of-the-crone-2",
+      "knives-of-the-crone-3",
+      "knives-of-the-crone-4"
+    ]
+  },
+  {
+    "id": "kurnoths-heralds",
+    "fraction": "Order",
+    "name": "Kurnoths Heralds",
+    "icon": "/images/icon/warBands/kurnoths-heralds-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/kurnoths-heralds-0.webp"
+    ],
+    "fighters": [
+      "kurnoths-heralds-1",
+      "kurnoths-heralds-2",
+      "kurnoths-heralds-3"
+    ]
+  },
+  {
+    "id": "lady-harrows-mournflight",
+    "fraction": "Death",
+    "name": "Lady Harrows Mournflight",
+    "icon": "/images/icon/warBands/lady-harrows-mournflight-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/Death-01.webp",
+      "/images/ability_sheet_warbands/Death-02.webp"
+    ],
+    "fighters": [
+      "lady-harrows-mournflight-1",
+      "lady-harrows-mournflight-2",
+      "lady-harrows-mournflight-3",
+      "lady-harrows-mournflight-4"
+    ]
+  },
+  {
+    "id": "magores-fiends",
+    "fraction": "Chaos",
+    "name": "Magores Fiends",
+    "icon": "/images/icon/warBands/magores-fiends-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/Chaos-01.webp",
+      "/images/ability_sheet_warbands/Chaos-02.webp"
+    ],
+    "fighters": [
+      "magores-fiends-1",
+      "magores-fiends-2",
+      "magores-fiends-3",
+      "magores-fiends-4"
+    ]
+  },
+  {
+    "id": "mollogs-mob",
+    "fraction": "Destruction",
+    "name": "Mollogs Mob",
+    "icon": "/images/icon/warBands/mollogs-mob-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/mollogs-mob-0.webp"
+    ],
+    "fighters": [
+      "mollogs-mob-1",
+      "mollogs-mob-2",
+      "mollogs-mob-3",
+      "mollogs-mob-4"
+    ]
+  },
+  {
+    "id": "morgoks-krushas",
+    "fraction": "Destruction",
+    "name": "Morgoks Krushas",
+    "icon": "/images/icon/warBands/morgoks-krushas-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/morgoks-krushas-0.webp"
+    ],
+    "fighters": [
+      "morgoks-krushas-1",
+      "morgoks-krushas-2",
+      "morgoks-krushas-3"
+    ]
+  },
+  {
+    "id": "morgwaeths-blade-coven",
+    "fraction": "Order",
+    "name": "Morgwaeths Blade Coven",
+    "icon": "/images/icon/warBands/morgwaeths-blade-coven-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/Order-01.webp",
+      "/images/ability_sheet_warbands/Order-02.webp"
+    ],
+    "fighters": [
+      "morgwaeths-blade-coven-1",
+      "morgwaeths-blade-coven-2",
+      "morgwaeths-blade-coven-3",
+      "morgwaeths-blade-coven-4",
+      "morgwaeths-blade-coven-5"
+    ]
+  },
+  {
+    "id": "myaris-purifiers",
+    "fraction": "Order",
+    "name": "Myaris Purifiers",
+    "icon": "/images/icon/warBands/myaris-purifiers-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/myaris-purifiers-0.webp"
+    ],
+    "fighters": [
+      "myaris-purifiers-1",
+      "myaris-purifiers-2",
+      "myaris-purifiers-3",
+      "myaris-purifiers-4"
+    ]
+  },
+  {
+    "id": "rippas-snarlfangs",
+    "fraction": "Destruction",
+    "name": "Rippas Snarlfangs",
+    "icon": "/images/icon/warBands/rippas-snarlfangs-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/rippas-snarlfangs-0.webp"
+    ],
+    "fighters": [
+      "rippas-snarlfangs-1",
+      "rippas-snarlfangs-2",
+      "rippas-snarlfangs-3"
+    ]
+  },
+  {
+    "id": "sepulchral-guard",
+    "fraction": "Death",
+    "name": "Sepulchral Guard",
+    "icon": "/images/icon/warBands/sepulchral-guard-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/sepulchral-guard-0.webp"
+    ],
+    "fighters": [
+      "sepulchral-guard-1",
+      "sepulchral-guard-2",
+      "sepulchral-guard-3",
+      "sepulchral-guard-4",
+      "sepulchral-guard-5",
+      "sepulchral-guard-6",
+      "sepulchral-guard-7"
+    ]
+  },
+  {
+    "id": "skabbiks-plaguepack",
+    "fraction": "Chaos",
+    "name": "Skabbiks Plaguepack",
+    "icon": "/images/icon/warBands/skabbiks-plaguepack-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/Chaos-01.webp",
+      "/images/ability_sheet_warbands/Chaos-02.webp"
+    ],
+    "fighters": [
+      "skabbiks-plaguepack-1",
+      "skabbiks-plaguepack-2",
+      "skabbiks-plaguepack-3",
+      "skabbiks-plaguepack-4",
+      "skabbiks-plaguepack-5",
+      "skabbiks-plaguepack-6"
+    ]
+  },
+  {
+    "id": "skaeths-wild-hunt",
+    "fraction": "Order",
+    "name": "Skaeths Wild Hunt",
+    "icon": "/images/icon/warBands/skaeths-wild-hunt-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/Order-01.webp",
+      "/images/ability_sheet_warbands/Order-02.webp"
+    ],
+    "fighters": [
+      "skaeths-wild-hunt-1",
+      "skaeths-wild-hunt-2",
+      "skaeths-wild-hunt-3",
+      "skaeths-wild-hunt-4",
+      "skaeths-wild-hunt-5"
+    ]
+  },
+  {
+    "id": "skittershanks-clawpack",
+    "fraction": "Chaos",
+    "name": "Skittershanks Clawpack",
+    "icon": "/images/icon/warBands/skittershanks-clawpack-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/skittershanks-clawpack-0.webp"
+    ],
+    "fighters": [
+      "skittershanks-clawpack-1",
+      "skittershanks-clawpack-2",
+      "skittershanks-clawpack-3",
+      "skittershanks-clawpack-4",
+      "skittershanks-clawpack-5"
+    ]
+  },
+  {
+    "id": "sons-of-velmorn",
+    "fraction": "Death",
+    "name": "Sons Of Velmorn",
+    "icon": "/images/icon/warBands/sons-of-velmorn-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/sons-of-velmorn-0.webp"
+    ],
+    "fighters": [
+      "sons-of-velmorn-1",
+      "sons-of-velmorn-2",
+      "sons-of-velmorn-3",
+      "sons-of-velmorn-4",
+      "sons-of-velmorn-5"
+    ]
+  },
+  {
+    "id": "spiteclaws-swarm",
+    "fraction": "Chaos",
+    "name": "Spiteclaws Swarm",
+    "icon": "/images/icon/warBands/spiteclaws-swarm-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/spiteclaws-swarm-0.webp"
+    ],
+    "fighters": [
+      "spiteclaws-swarm-1",
+      "spiteclaws-swarm-2",
+      "spiteclaws-swarm-3",
+      "spiteclaws-swarm-4",
+      "spiteclaws-swarm-5"
+    ]
+  },
+  {
+    "id": "steelhearts-champions",
+    "fraction": "Order",
+    "name": "Steelhearts Champions",
+    "icon": "/images/icon/warBands/steelhearts-champions-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/Order-01.webp",
+      "/images/ability_sheet_warbands/Order-02.webp"
+    ],
+    "fighters": [
+      "steelhearts-champions-1",
+      "steelhearts-champions-2",
+      "steelhearts-champions-3"
+    ]
+  },
+  {
+    "id": "storm-of-celestus",
+    "fraction": "Order",
+    "name": "Storm Of Celestus",
+    "icon": "/images/icon/warBands/storm-of-celestus-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/Order-01.webp",
+      "/images/ability_sheet_warbands/Order-02.webp"
+    ],
+    "fighters": [
+      "storm-of-celestus-1",
+      "storm-of-celestus-2",
+      "storm-of-celestus-3",
+      "storm-of-celestus-4"
+    ]
+  },
+  {
+    "id": "stormsires-cursebreakers",
+    "fraction": "Order",
+    "name": "Stormsires Cursebreakers",
+    "icon": "/images/icon/warBands/stormsires-cursebreakers-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/Order-01.webp",
+      "/images/ability_sheet_warbands/Order-02.webp"
+    ],
+    "fighters": [
+      "stormsires-cursebreakers-1",
+      "stormsires-cursebreakers-2",
+      "stormsires-cursebreakers-3"
+    ]
+  },
+  {
+    "id": "thanateks-tithe",
+    "fraction": "Death",
+    "name": "Thanateks Tithe",
+    "icon": "/images/icon/warBands/thanateks-tithe-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/thanateks-tithe-0.webp"
+    ],
+    "fighters": [
+      "thanateks-tithe-1",
+      "thanateks-tithe-2",
+      "thanateks-tithe-3",
+      "thanateks-tithe-4",
+      "thanateks-tithe-5"
+    ]
+  },
+  {
+    "id": "the-chosen-axes",
+    "fraction": "Order",
+    "name": "The Chosen Axes",
+    "icon": "/images/icon/warBands/the-chosen-axes-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/Order-01.webp",
+      "/images/ability_sheet_warbands/Order-02.webp"
+    ],
+    "fighters": [
+      "the-chosen-axes-1",
+      "the-chosen-axes-2",
+      "the-chosen-axes-3",
+      "the-chosen-axes-4"
+    ]
+  },
+  {
+    "id": "the-crimson-court",
+    "fraction": "Death",
+    "name": "The Crimson Court",
+    "icon": "/images/icon/warBands/the-crimson-court-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/the-crimson-court-0.webp"
+    ],
+    "fighters": [
+      "the-crimson-court-1",
+      "the-crimson-court-2",
+      "the-crimson-court-3",
+      "the-crimson-court-4"
+    ]
+  },
+  {
+    "id": "the-dread-pageant",
+    "fraction": "Chaos",
+    "name": "The Dread Pageant",
+    "icon": "/images/icon/warBands/the-dread-pageant-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/the-dread-pageant-0.webp"
+    ],
+    "fighters": [
+      "the-dread-pageant-1",
+      "the-dread-pageant-2",
+      "the-dread-pageant-3",
+      "the-dread-pageant-4"
+    ]
+  },
+  {
+    "id": "the-emberwatch",
+    "fraction": "Order",
+    "name": "The Emberwatch",
+    "icon": "/images/icon/warBands/the-emberwatch-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/the-emberwatch-0.webp"
+    ],
+    "fighters": [
+      "the-emberwatch-1",
+      "the-emberwatch-2",
+      "the-emberwatch-3"
+    ]
+  },
+  {
+    "id": "the-exiled-dead",
+    "fraction": "Death",
+    "name": "The Exiled Dead",
+    "icon": "/images/icon/warBands/the-exiled-dead-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/the-exiled-dead-0.webp"
+    ],
+    "fighters": [
+      "the-exiled-dead-1",
+      "the-exiled-dead-2",
+      "the-exiled-dead-3",
+      "the-exiled-dead-4",
+      "the-exiled-dead-5",
+      "the-exiled-dead-6",
+      "the-exiled-dead-7"
+    ]
+  },
+  {
+    "id": "the-farstriders",
+    "fraction": "Order",
+    "name": "The Farstriders",
+    "icon": "/images/icon/warBands/the-farstriders-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/the-farstriders-0.webp"
+    ],
+    "fighters": [
+      "the-farstriders-1",
+      "the-farstriders-2",
+      "the-farstriders-3"
+    ]
+  },
+  {
+    "id": "the-grymwatch",
+    "fraction": "Death",
+    "name": "The Grymwatch",
+    "icon": "/images/icon/warBands/the-grymwatch-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/the-grymwatch-0.webp"
+    ],
+    "fighters": [
+      "the-grymwatch-1",
+      "the-grymwatch-2",
+      "the-grymwatch-3",
+      "the-grymwatch-4",
+      "the-grymwatch-5",
+      "the-grymwatch-6",
+      "the-grymwatch-7"
+    ]
+  },
+  {
+    "id": "the-headsmens-curse",
+    "fraction": "Death",
+    "name": "The Headsmens Curse",
+    "icon": "/images/icon/warBands/the-headsmens-curse-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/the-headsmens-curse-0.webp"
+    ],
+    "fighters": [
+      "the-headsmens-curse-1",
+      "the-headsmens-curse-2",
+      "the-headsmens-curse-3",
+      "the-headsmens-curse-4"
+    ]
+  },
+  {
+    "id": "the-shadeborn",
+    "fraction": "Order",
+    "name": "The Shadeborn",
+    "icon": "/images/icon/warBands/the-shadeborn-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/the-shadeborn-0.webp"
+    ],
+    "fighters": [
+      "the-shadeborn-1",
+      "the-shadeborn-2",
+      "the-shadeborn-3",
+      "the-shadeborn-4"
+    ]
+  },
+  {
+    "id": "the-skinnerkin",
+    "fraction": "Death",
+    "name": "The Skinnerkin",
+    "icon": "/images/icon/warBands/the-skinnerkin-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/the-skinnerkin-0.webp"
+    ],
+    "fighters": [
+      "the-skinnerkin-1",
+      "the-skinnerkin-2",
+      "the-skinnerkin-3",
+      "the-skinnerkin-4",
+      "the-skinnerkin-5"
+    ]
+  },
+  {
+    "id": "the-starblood-stalkers",
+    "fraction": "Order",
+    "name": "The Starblood Stalkers",
+    "icon": "/images/icon/warBands/the-starblood-stalkers-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/the-starblood-stalkers-0.webp"
+    ],
+    "fighters": [
+      "the-starblood-stalkers-1",
+      "the-starblood-stalkers-2",
+      "the-starblood-stalkers-3",
+      "the-starblood-stalkers-4",
+      "the-starblood-stalkers-5",
+      "the-starblood-stalkers-6"
+    ]
+  },
+  {
+    "id": "the-thricefold-discord",
+    "fraction": "Chaos",
+    "name": "The Thricefold Discord",
+    "icon": "/images/icon/warBands/the-thricefold-discord-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/the-thricefold-discord-0.webp"
+    ],
+    "fighters": [
+      "the-thricefold-discord-1",
+      "the-thricefold-discord-2",
+      "the-thricefold-discord-3"
+    ]
+  },
+  {
+    "id": "the-wurmspat",
+    "fraction": "Chaos",
+    "name": "The Wurmspat",
+    "icon": "/images/icon/warBands/the-wurmspat-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/the-wurmspat-0.webp"
+    ],
+    "fighters": [
+      "the-wurmspat-1",
+      "the-wurmspat-2",
+      "the-wurmspat-3"
+    ]
+  },
+  {
+    "id": "thorns-of-the-briar-queen",
+    "fraction": "Death",
+    "name": "Thorns Of The Briar Queen",
+    "icon": "/images/icon/warBands/thorns-of-the-briar-queen-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/thorns-of-the-briar-queen-0.webp"
+    ],
+    "fighters": [
+      "thorns-of-the-briar-queen-1",
+      "thorns-of-the-briar-queen-2",
+      "thorns-of-the-briar-queen-3",
+      "thorns-of-the-briar-queen-4",
+      "thorns-of-the-briar-queen-5",
+      "thorns-of-the-briar-queen-6",
+      "thorns-of-the-briar-queen-7"
+    ]
+  },
+  {
+    "id": "thundriks-profiteers",
+    "fraction": "Order",
+    "name": "Thundriks Profiteers",
+    "icon": "/images/icon/warBands/thundriks-profiteers-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/thundriks-profiteers-0.webp"
+    ],
+    "fighters": [
+      "thundriks-profiteers-1",
+      "thundriks-profiteers-2",
+      "thundriks-profiteers-3",
+      "thundriks-profiteers-4",
+      "thundriks-profiteers-5"
+    ]
+  },
+  {
+    "id": "thyrielles-zephyrites",
+    "fraction": "Order",
+    "name": "Thyrielles Zephyrites",
+    "icon": "/images/icon/warBands/thyrielles-zephyrites-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/thyrielles-zephyrites-0.webp"
+    ],
+    "fighters": [
+      "thyrielles-zephyrites-1",
+      "thyrielles-zephyrites-2",
+      "thyrielles-zephyrites-3",
+      "thyrielles-zephyrites-4"
+    ]
+  },
+  {
+    "id": "xandires-truthseekers",
+    "fraction": "Order",
+    "name": "Xandires Truthseekers",
+    "icon": "/images/icon/warBands/xandires-truthseekers-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/xandires-truthseekers-0.webp"
+    ],
+    "fighters": [
+      "xandires-truthseekers-1",
+      "xandires-truthseekers-2",
+      "xandires-truthseekers-3",
+      "xandires-truthseekers-4"
+    ]
+  },
+  {
+    "id": "yltharis-guardians",
+    "fraction": "Order",
+    "name": "Yltharis Guardians",
+    "icon": "/images/icon/warBands/yltharis-guardians-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/yltharis-guardians-0.webp"
+    ],
+    "fighters": [
+      "yltharis-guardians-1",
+      "yltharis-guardians-2",
+      "yltharis-guardians-3",
+      "yltharis-guardians-4"
+    ]
+  },
+  {
+    "id": "zarbags-gitz",
+    "fraction": "Destruction",
+    "name": "Zarbags Gitz",
+    "icon": "/images/icon/warBands/zarbags-gitz-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/zarbags-gitz-0.webp"
+    ],
+    "fighters": [
+      "zarbags-gitz-1",
+      "zarbags-gitz-2",
+      "zarbags-gitz-3",
+      "zarbags-gitz-4",
+      "zarbags-gitz-5",
+      "zarbags-gitz-6",
+      "zarbags-gitz-7",
+      "zarbags-gitz-8",
+      "zarbags-gitz-9"
+    ]
+  },
+  {
+    "id": "zikkits-tunnelpack",
+    "fraction": "Chaos",
+    "name": "Zikkits Tunnelpack",
+    "icon": "/images/icon/warBands/zikkits-tunnelpack-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/zikkits-tunnelpack-0.webp"
+    ],
+    "fighters": [
+      "zikkits-tunnelpack-1",
+      "zikkits-tunnelpack-2",
+      "zikkits-tunnelpack-3",
+      "zikkits-tunnelpack-4",
+      "zikkits-tunnelpack-5"
+    ]
+  },
+  {
+    "id": "zondaras-gravebreakers",
+    "fraction": "Death",
+    "name": "Zondaras Gravebreakers",
+    "icon": "/images/icon/warBands/zondaras-gravebreakers-icon.webp",
+    "abilitySheetWarBands": [
+      "/images/ability_sheet_warbands/zondaras-gravebreakers-0.webp"
+    ],
+    "fighters": [
+      "zondaras-gravebreakers-1",
+      "zondaras-gravebreakers-2",
+      "zondaras-gravebreakers-3",
+      "zondaras-gravebreakers-4",
+      "zondaras-gravebreakers-5"
+    ]
+  }
+]
