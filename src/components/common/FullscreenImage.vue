@@ -140,7 +140,7 @@ onUnmounted(() => {
                         @touchstart.stop
                         aria-label="Назад"
                 >
-                    ←
+                    X
                 </button>
                 <img
                         :src="src"
