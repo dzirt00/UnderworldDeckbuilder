@@ -1,5 +1,41 @@
 <script setup lang="ts">
+import { onMounted, onUnmounted } from 'vue'
+import { useRouter } from 'vue-router'
+import { App } from '@capacitor/app'
+import { Toast } from '@capacitor/toast'
 import AppHeader from '@/components/common/AppHeader.vue'
+
+const router = useRouter()
+let lastBackPress = 0
+
+const handleBackButton = async () => {
+    const currentPath = router.currentRoute.value.path
+    // Если не на главной странице — возвращаемся
+    if (currentPath !== '/' && currentPath !== '/home') {
+        router.back()
+        return
+    }
+
+    // На главной — двойное нажатие для выхода
+    const now = Date.now()
+    if (now - lastBackPress > 2000) {
+        await Toast.show({
+            text: 'Нажмите ещё раз, чтобы выйти',
+            duration: 'short',
+        })
+        lastBackPress = now
+    } else {
+        App.exitApp()
+    }
+}
+
+onMounted(() => {
+    App.addListener('backButton', handleBackButton)
+})
+
+onUnmounted(() => {
+    App.removeAllListeners()
+})
 </script>
 
 <template>
