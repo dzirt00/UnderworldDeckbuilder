@@ -87,27 +87,25 @@ function goBack() {
 
 function shareDeck() {
     if (!deckData.value) return
-    const encoded = encodeDeck(deckData.value.warbandId, deckData.value.cardIds, deckData.value.name)
-    const link = buildDeckLink(encoded)
-    if (navigator.clipboard) {
-        navigator.clipboard.writeText(encoded).then(() => {
-            showCopyNotification('Deck code copied!')
-        }).catch(() => {
-            prompt('Copy this code:', encoded)
-        })
-    } else {
-        prompt('Copy this code:', encoded)
-    }
 
+    const encoded = encodeDeck(
+            deckData.value.warbandId,
+            deckData.value.cardIds,
+            deckData.value.name
+    )
+
+    // Ссылка с кастомной схемой (откроет приложение)
+    const link = `underworlddeckbuilder://import?deck=${encoded}`
+
+    // Копируем ссылку
     if (navigator.clipboard) {
         navigator.clipboard.writeText(link).then(() => {
-            showCopyNotification('Deck code copied!')
+            showCopyNotification('Deck link copied!')
         }).catch(() => {
-            // fallback
-            prompt('Copy this code:', encoded)
+            prompt('Copy this link:', link)
         })
     } else {
-        prompt('Copy this code:', encoded)
+        prompt('Copy this link:', link)
     }
 }
 </script>

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, onMounted, computed } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
-import { decodeDeck, encodeDeck, buildDeckLink } from '@/utils/deckCodec'
+import { decodeDeck, encodeDeck } from '@/utils/deckCodec'
 
 interface SavedDeck {
     id: string
@@ -16,8 +16,6 @@ const route = useRoute()
 const router = useRouter()
 const decks = ref<SavedDeck[]>([])
 const importError = ref<string | null>(null)
-
-// Toast-уведомление
 const toastMessage = ref<string | null>(null)
 
 // Параметр ссылки (если есть)
@@ -31,37 +29,28 @@ function loadDecks() {
 function deleteDeck(id: string) {
     decks.value = decks.value.filter(d => d.id !== id)
     localStorage.setItem('user_decks', JSON.stringify(decks.value))
+    showToast('Deck deleted')
 }
 
 function openDeck(id: string) {
     router.push(`/my-decks/${id}`)
 }
 
-// === Импорт по ссылке ===
-
-// Попытка открыть приложение через кастомную схему
-function tryOpenApp(encoded: string) {
-    const appUri = `warband://import?deck=${encodeURIComponent(encoded)}`
-    const fallbackUrl = 'https://yourapp.com/download' // Замените на ваш URL загрузки
-
-    // Пытаемся открыть приложение
-    window.location.href = appUri
-
-    // Если через 2.5 секунды мы всё ещё на странице — приложение не открылось
-    setTimeout(() => {
-        if (document.visibilityState !== 'hidden') {
-            window.location.href = fallbackUrl
-        }
-    }, 2500)
+// === Toast уведомления ===
+function showToast(msg: string) {
+    toastMessage.value = msg
+    setTimeout(() => { toastMessage.value = null }, 2500)
 }
 
-// Обработка параметра deck при загрузке
+// === Импорт по ссылке (автоматический при открытии) ===
+
 onMounted(() => {
     loadDecks()
 
     const encoded = deckParam.value
     if (!encoded) return
 
+    // Убираем параметр из URL, чтобы не мешал
     router.replace({ query: {} })
 
     const decoded = decodeDeck(encoded)
@@ -70,6 +59,23 @@ onMounted(() => {
         return
     }
 
+    // Проверяем, существует ли уже такая колода (сравниваем warbandId и cardIds)
+    const existing = decks.value.find(d =>
+            d.warbandId === decoded.warbandId &&
+            d.cardIds.length === decoded.cardIds.length &&
+            d.cardIds.every(id => decoded.cardIds.includes(id))
+    )
+
+    if (existing) {
+        if (!confirm(`Deck "${existing.name}" already exists. Replace it?`)) {
+            showToast('Import cancelled')
+            return
+        }
+        // Удаляем старую
+        decks.value = decks.value.filter(d => d.id !== existing.id)
+    }
+
+    // Создаём новую колоду
     const newDeck: SavedDeck = {
         id: `imported_${Date.now()}`,
         name: decoded.name || 'Imported Deck',
@@ -79,41 +85,33 @@ onMounted(() => {
         createdAt: new Date().toISOString()
     }
 
-    const existing = decks.value.find(d => d.warbandId === decoded.warbandId && d.cardIds.length === decoded.cardIds.length)
-    if (existing) {
-        if (!confirm(`Deck "${existing.name}" already exists. Replace it?`)) {
-            return
-        }
-        decks.value = decks.value.filter(d => d.id !== existing.id)
-    }
-
     decks.value.push(newDeck)
     localStorage.setItem('user_decks', JSON.stringify(decks.value))
-
-    tryOpenApp(encoded)
+    showToast(`Deck "${newDeck.name}" imported successfully!`)
 })
 
-// === Генерация ссылки для шеринга ===
+// === Генерация и копирование ссылки для шеринга ===
 
 function shareDeck(deck: SavedDeck) {
+    // 1. Кодируем данные
     const encoded = encodeDeck(deck.warbandId, deck.cardIds, deck.name)
-    const link = buildDeckLink(encoded)
 
-    // Копируем в буфер обмена
+    // 2. Формируем ссылку с кастомной схемой (откроет приложение)
+    //    Используем ту же схему, что настроена в AndroidManifest.xml / Info.plist
+    const link = `underworlddeckbuilder://import?deck=${encoded}`
+
+    // 3. Копируем в буфер обмена
     if (navigator.clipboard) {
-        navigator.clipboard.writeText(link).then(() => {
-            toastMessage.value = 'Deck link copied!'
-            setTimeout(() => { toastMessage.value = null }, 2500)
-        }).catch(() => {
-            // fallback
-            prompt('Copy this link:', link)
-            toastMessage.value = 'Link copied (manual)'
-            setTimeout(() => { toastMessage.value = null }, 2500)
-        })
+        navigator.clipboard.writeText(link)
+                .then(() => showToast('Deck link copied!'))
+                .catch(() => {
+                    // fallback
+                    prompt('Copy this link:', link)
+                    showToast('Link copied (manual)')
+                })
     } else {
         prompt('Copy this link:', link)
-        toastMessage.value = 'Link copied (manual)'
-        setTimeout(() => { toastMessage.value = null }, 2500)
+        showToast('Link copied (manual)')
     }
 }
 </script>
@@ -161,7 +159,7 @@ function shareDeck(deck: SavedDeck) {
 </template>
 
 <style scoped>
-/* добавляем стили для toast */
+/* все стили остаются без изменений, кроме добавленного .toast (уже есть) */
 .toast {
     position: fixed;
     top: 20px;
@@ -189,6 +187,7 @@ function shareDeck(deck: SavedDeck) {
     }
 }
 
+/* остальные стили (my-decks, deck-card и т.д.) оставляем как были */
 .my-decks {
     max-width: 1200px;
     margin: 0 auto;

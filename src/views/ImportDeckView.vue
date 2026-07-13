@@ -1,38 +1,50 @@
 <script setup lang="ts">
-import { ref } from 'vue'
-import { useRouter } from 'vue-router'
+import { ref, onMounted } from 'vue'
+import { useRoute, useRouter } from 'vue-router'
 import { decodeDeck } from '@/utils/deckCodec'
 import { useWarbandStore } from '@/store/warbandStore'
 
+const route = useRoute()
 const router = useRouter()
 const warbandStore = useWarbandStore()
+
 const code = ref('')
 const error = ref('')
+const isProcessing = ref(false)
 
-function importDeck() {
-    if (!code.value.trim()) {
+/**
+ * Основная логика импорта (используется как для ручного ввода, так и для автоимпорта)
+ */
+function performImport(encoded: string): boolean {
+    const trimmed = encoded.trim()
+    if (!trimmed) {
         error.value = 'Введите код колоды'
-        return
+        return false
     }
-    const decoded = decodeDeck(code.value.trim())
+
+    const decoded = decodeDeck(trimmed)
     if (!decoded) {
         error.value = 'Неверный код'
-        return
+        return false
     }
-    // Проверяем, есть ли уже такая колода
+
+    // Проверяем, есть ли уже такая колода (сравниваем warbandId и cardIds)
     const savedDecks = JSON.parse(localStorage.getItem('user_decks') || '[]')
     const exists = savedDecks.some((d: any) =>
+            d.warbandId === decoded.warbandId &&
             d.cardIds.length === decoded.cardIds.length &&
             d.cardIds.every((id: string) => decoded.cardIds.includes(id))
     )
+
     if (exists) {
-        error.value = 'Your have this deck'
-        return
+        error.value = 'You already have this deck'
+        return false
     }
-    // Сохраняем
+
+    // Сохраняем новую колоду
     const newDeck = {
         id: `user_${Date.now()}`,
-        name: decoded.name || 'Import Deck',
+        name: decoded.name || 'Imported Deck',
         description: 'Imported by code',
         warbandId: decoded.warbandId,
         cardIds: decoded.cardIds,
@@ -40,12 +52,58 @@ function importDeck() {
     }
     savedDecks.push(newDeck)
     localStorage.setItem('user_decks', JSON.stringify(savedDecks))
-    // Загружаем банду, чтобы показывать
+
+    // Загружаем банду для отображения (опционально)
     if (decoded.warbandId) {
         warbandStore.setCurrentWarband(decoded.warbandId)
     }
-    router.push('/my-decks')
+
+    return true
 }
+
+/**
+ * Обработчик кнопки "Import"
+ */
+function importDeck() {
+    if (isProcessing.value) return
+    isProcessing.value = true
+    error.value = ''
+
+    const success = performImport(code.value)
+    if (success) {
+        // Перенаправляем на список колод
+        router.push('/my-decks')
+    }
+    isProcessing.value = false
+}
+
+/**
+ * Автоматический импорт при открытии страницы с параметром ?deck=...
+ */
+function autoImportFromQuery() {
+    const encoded = route.query.deck as string
+    if (!encoded) return
+
+    code.value = encoded // заполняем поле для видимости
+    error.value = ''
+
+    const success = performImport(encoded)
+    if (success) {
+        // После успешного импорта можно показать уведомление и перенаправить
+        // или оставить пользователя на этой странице с сообщением
+        // Для лучшего UX — перенаправляем через секунду
+        setTimeout(() => {
+            router.push('/my-decks')
+        }, 1000)
+    } else {
+        // Если ошибка (например, уже существует), показываем её, но не перенаправляем
+        // Пользователь может исправить вручную
+    }
+}
+
+onMounted(() => {
+    autoImportFromQuery()
+})
 </script>
 
 <template>
@@ -56,14 +114,18 @@ function importDeck() {
                 v-model="code"
                 placeholder="Insert code here..."
                 rows="4"
+                :disabled="isProcessing"
         ></textarea>
         <p v-if="error" class="error">{{ error }}</p>
-        <button class="btn-import" @click="importDeck">Import</button>
+        <button class="btn-import" @click="importDeck" :disabled="isProcessing">
+            {{ isProcessing ? 'Importing...' : 'Import' }}
+        </button>
         <button class="btn-cancel" @click="router.push('/')">Cancel</button>
     </div>
 </template>
 
 <style scoped>
+/* стили остаются без изменений */
 .import-deck {
     max-width: 600px;
     margin: 0 auto;
@@ -94,6 +156,10 @@ textarea {
     font-size: 1rem;
     cursor: pointer;
     margin-right: 12px;
+}
+.btn-import:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
 }
 .btn-cancel {
     background: #3a3a5a;

@@ -1,43 +1,42 @@
 <script setup lang="ts">
-import { onMounted, onUnmounted } from 'vue'
+import { onMounted } from 'vue'
 import { useRouter } from 'vue-router'
 import { App } from '@capacitor/app'
-import { Toast } from '@capacitor/toast'
 import AppHeader from '@/components/common/AppHeader.vue'
+import { decodeDeck } from '@/utils/deckCodec'
 
 const router = useRouter()
-let lastBackPress = 0
 
-const handleBackButton = async () => {
-    const currentPath = router.currentRoute.value.path
-    // Если не на главной странице — возвращаемся
-    if (currentPath !== '/' && currentPath !== '/home') {
-        router.back()
-        return
-    }
-
-    // На главной — двойное нажатие для выхода
-    const now = Date.now()
-    if (now - lastBackPress > 2000) {
-        await Toast.show({
-            text: 'Нажмите ещё раз, чтобы выйти',
-            duration: 'short',
-        })
-        lastBackPress = now
-    } else {
-        App.exitApp()
+// Обработчик глубоких ссылок
+async function handleDeepLink(url: string) {
+    try {
+        const parsed = new URL(url)
+        if (parsed.pathname === '/import') {
+            const encoded = parsed.searchParams.get('deck')
+            if (encoded) {
+                // Переходим на страницу импорта, передавая закодированные данные
+                router.push({ path: '/import', query: { deck: encoded } })
+            }
+        }
+    } catch (e) {
+        console.warn('Invalid deep link:', url)
     }
 }
 
 onMounted(() => {
-    App.addListener('backButton', handleBackButton)
-})
+    // Слушаем открытие приложения по ссылке
+    App.addListener('appUrlOpen', (data: { url: string }) => {
+        handleDeepLink(data.url)
+    })
 
-onUnmounted(() => {
-    App.removeAllListeners()
+    // Также проверить, не было ли приложение открыто по ссылке при старте
+    // (Capacitor иногда передаёт URL через window.location.href)
+    const initialUrl = window.location.href
+    if (initialUrl.includes('import?deck=')) {
+        handleDeepLink(initialUrl)
+    }
 })
 </script>
-
 <template>
     <div id="app">
         <AppHeader />

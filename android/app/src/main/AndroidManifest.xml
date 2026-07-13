@@ -17,10 +17,22 @@
             android:theme="@style/AppTheme.NoActionBarLaunch"
             android:launchMode="singleTask"
             android:exported="true">
+
+            <!-- Обычный запуск приложения -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+            <!-- ДОБАВЛЯЕМ: обработка кастомной схемы для глубоких ссылок -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Схема должна совпадать с той, что вы используете в ссылках -->
+                <data android:scheme="underworlddeckbuilder" />
+            </intent-filter>
+
         </activity>
 
         <!-- Ваш существующий FileProvider -->
@@ -34,7 +46,7 @@
                 android:resource="@xml/file_paths" />
         </provider>
 
-        <!-- ДОБАВЛЯЕМ: переопределение для провайдера из библиотеки startup -->
+        <!-- Переопределение провайдера из библиотеки startup -->
         <provider
             android:name="androidx.startup.InitializationProvider"
             android:authorities="com.dzirt00.UnderworldDeckbuilder.androidx-startup"
