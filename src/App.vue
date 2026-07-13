@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import AppHeader from '@/components/common/AppHeader.vue'
-import Footer from "@/components/common/Footer.vue";
 </script>
 
 <template>
@@ -9,7 +8,6 @@ import Footer from "@/components/common/Footer.vue";
         <main class="app-main">
             <RouterView />
         </main>
-        <Footer/>
     </div>
 </template>
 

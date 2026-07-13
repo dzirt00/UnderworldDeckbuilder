@@ -23,6 +23,9 @@ import { RouterLink } from 'vue-router'
             <RouterLink to="/import" class="home-view__button">
                 <span class="button-icon">📥</span> Import Deck
             </RouterLink>
+            <RouterLink to="/feedback" class="home-view__button">
+                <span class="button-icon">✉️</span>Feedback
+            </RouterLink>
         </div>
     </div>
 </template>

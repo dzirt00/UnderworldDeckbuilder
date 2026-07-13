@@ -8,6 +8,7 @@ import BuilderView from '@/views/BuilderView.vue'
 import MyDecksView from '@/views/MyDecksView.vue'
 import UserDeckDetailView from '@/views/UserDeckDetailView.vue'
 import ImportDeckView from '@/views/ImportDeckView.vue'
+import Feedback from '@/views/Feedback.vue'
 
 const routes = [
     {
@@ -57,6 +58,11 @@ const routes = [
         path: '/import',
         name: 'import',
         component: ImportDeckView
+    },
+    {
+        path: '/feedback',
+        name: 'feedback',
+        component: Feedback
     }
 ]
 
