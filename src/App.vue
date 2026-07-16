@@ -3,7 +3,6 @@ import { onMounted } from 'vue'
 import { useRouter } from 'vue-router'
 import { App } from '@capacitor/app'
 import AppHeader from '@/components/common/AppHeader.vue'
-import { decodeDeck } from '@/utils/deckCodec'
 
 const router = useRouter()
 
@@ -29,8 +28,6 @@ onMounted(() => {
         handleDeepLink(data.url)
     })
 
-    // Также проверить, не было ли приложение открыто по ссылке при старте
-    // (Capacitor иногда передаёт URL через window.location.href)
     const initialUrl = window.location.href
     if (initialUrl.includes('import?deck=')) {
         handleDeepLink(initialUrl)
@@ -47,54 +44,71 @@ onMounted(() => {
 </template>
 
 <style>
-html, body, #app {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    min-height: 100vh;
-    background-color: #0f0f1a !important; /* Принудительно задаем фон */
-}
-
-body {
-
-    padding-top: env(safe-area-inset-top);
-    padding-bottom: env(safe-area-inset-bottom);
-    padding-left: env(safe-area-inset-left);
-    padding-right: env(safe-area-inset-right);
-}
-
-
+/* Глобальный сброс */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: #0f0f1a;
-    color: #e0e0e0;
+
+html, body {
+    width: 100%;
+    max-width: 100vw;
     min-height: 100vh;
+    overflow-x: hidden;
+    background-color: #0f0f1a !important;
+}
+
+body {
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
+    /* Базовые отступы для безопасных зон */
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+    padding-left: env(safe-area-inset-left, 0px);
+    padding-right: env(safe-area-inset-right, 0px);
 }
 
 #app {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    /* Учитываем высоту хедера + безопасную зону сверху */
+    padding-top: calc(64px + env(safe-area-inset-top, 0px));
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden;
+    position: relative;
+    /* Отступ снизу для системных кнопок */
+    padding-bottom: env(safe-area-inset-bottom, 0px);
 }
 
 .app-main {
     flex: 1;
     padding: 24px 20px;
+    padding-bottom: calc(24px + env(safe-area-inset-bottom, 0px));
     max-width: 1200px;
     margin: 0 auto;
     width: 100%;
+    overflow-x: hidden;
+}
+
+/* Скрываем скроллбар полностью (если нужно) */
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
+/* Для Firefox */
+* {
+    scrollbar-width: none;
 }
 
 @media (max-width: 768px) {
-    .app-main{
-        padding: 0;
-        margin: 0;
+    .app-main {
+        padding: 16px 12px;
+        padding-bottom: calc(16px + env(safe-area-inset-bottom, 0px));
     }
 }
 </style>

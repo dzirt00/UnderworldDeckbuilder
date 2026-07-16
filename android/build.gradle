@@ -10,7 +10,6 @@ buildscript {
     }
 }
 
-// 👇 Добавьте эту строку
 apply from: "variables.gradle"
 
 allprojects {

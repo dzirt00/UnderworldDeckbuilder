@@ -23,21 +23,35 @@ import { RouterLink } from 'vue-router'
 
 <style scoped>
 .app-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden;
     background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
     padding: 0 20px;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    position: sticky;
+    /* Учитываем безопасную зону сверху */
+    padding-top: env(safe-area-inset-top, 0px);
+    height: calc(64px + env(safe-area-inset-top, 0px));
+    display: flex;
+    align-items: center;
 }
+
 .app-header__container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     max-width: 1200px;
     margin: 0 auto;
-    height: 64px;
+    height: 100%;
+    width: 100%;
+    /* Отступы для безопасных зон по бокам */
+    padding-left: env(safe-area-inset-left, 0px);
+    padding-right: env(safe-area-inset-right, 0px);
 }
 
 .app-header__logo {
@@ -85,12 +99,14 @@ import { RouterLink } from 'vue-router'
 
 /* Адаптив для мобильных */
 @media (max-width: 768px) {
+    .app-header {
+        padding: 0 12px;
+    }
     .app-header__container {
         flex-wrap: wrap;
         height: auto;
         padding: 12px 0;
     }
-
     .app-header__logo {
         flex: 1 1 100%;
         justify-content: center;

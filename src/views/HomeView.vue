@@ -45,6 +45,7 @@ import { RouterLink } from 'vue-router'
     font-weight: 700;
     margin-bottom: 0.5rem;
     text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    color: white;
 }
 
 .home-view__subtitle {
