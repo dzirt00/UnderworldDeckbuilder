@@ -84,6 +84,26 @@ function goBack() {
     router.push('/my-decks')
 }
 
+function editDeck() {
+    if (!deckData.value) return
+
+    const query: any = {
+        edit: deckData.value.id,
+        warbandId: deckData.value.warbandId || '',
+        cardIds: deckData.value.cardIds.join(','),
+        deckName: deckData.value.name
+    }
+
+    // Добавляем setIds только если они есть
+    if (deckData.value.setIds && deckData.value.setIds.length > 0) {
+        query.setIds = deckData.value.setIds.join(',')
+    }
+
+    router.push({
+        path: '/builder',
+        query
+    })
+}
 
 function shareDeck() {
     if (!deckData.value) return
@@ -123,6 +143,7 @@ function shareDeck() {
                 <button class="btn-back" @click="goBack">Back</button>
                 <h1 class="title">{{ deckData.name }}</h1>
                 <span class="badge">{{ deckData.warbandId || 'Without WarBand' }}</span>
+                <button class="btn-edit" @click="editDeck">✏️ Edit</button>
                 <button class="btn-share" @click="shareDeck">Share</button>
             </div>
 
@@ -305,6 +326,19 @@ function shareDeck() {
 }
 .btn-back:hover {
     background: #4a4a6a;
+}
+
+.btn-edit {
+    background: #4a5a2a;
+    border: none;
+    color: #c4ffa0;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.btn-edit:hover {
+    background: #6a8a3a;
 }
 
 .btn-share {

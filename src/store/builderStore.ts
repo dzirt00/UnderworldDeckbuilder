@@ -44,6 +44,9 @@ export const useBuilderStore = defineStore('builder', {
             this.selectedCardIds = []
             this.errors = []
             this.selectedDeckIds = []
+        },
+        setSelectedCards(cardIds: string[]) {
+            this.selectedCardIds = cardIds
         }
     }
 })

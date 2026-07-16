@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { ref, computed, watch } from 'vue'
-import { useRouter } from 'vue-router'
+import { ref, computed, watch, onMounted, nextTick, onBeforeUnmount } from 'vue'
+import { useRoute, useRouter } from 'vue-router'
 import { useBuilderStore } from '@/store/builderStore'
 import { useWarbandStore } from '@/store/warbandStore'
 import { useDeckStore } from '@/store/deckStore'
@@ -9,6 +9,7 @@ import FullscreenImage from '@/components/common/FullscreenImage.vue'
 import greyCircle from '@/components/images/greyCircle.vue'
 import yellowCircle from '@/components/images/yellowCircle.vue'
 
+const route = useRoute()
 const router = useRouter()
 const builderStore = useBuilderStore()
 const warbandStore = useWarbandStore()
@@ -20,6 +21,11 @@ const allCards = deckStore.cards
 
 // Название колоды
 const deckName = ref('')
+
+// Режим редактирования
+const isEditMode = ref(false)
+const editDeckId = ref<string | null>(null)
+const isLoadingDeck = ref(false)
 
 // ---- Шаг 1: Поиск по бандам ----
 const warbandSearchQuery = ref('')
@@ -55,7 +61,7 @@ watch(selectedDeckIds, (val) => {
 
 // Сброс выбранных карт при изменении деков (чтобы не оставались карты из удалённых сетов)
 watch(selectedDeckIds, () => {
-    if (builderStore.step >= 2) {
+    if (builderStore.step >= 2 && !isLoadingDeck.value) {
         builderStore.clearSelection()
     }
 })
@@ -64,7 +70,7 @@ watch(selectedDeckIds, () => {
 watch(
         () => builderStore.selectedWarbandId,
         (newId) => {
-            if (builderStore.step === 3 && newId) {
+            if (builderStore.step === 3 && newId && !isEditMode.value) {
                 const warband = warbands.find(w => w.id === newId)
                 if (warband) deckName.value = warband.name
             }
@@ -75,7 +81,7 @@ watch(
 watch(
         () => builderStore.step,
         (newStep) => {
-            if (newStep === 3 && builderStore.selectedWarbandId) {
+            if (newStep === 3 && builderStore.selectedWarbandId && !isEditMode.value) {
                 const warband = warbands.find(w => w.id === builderStore.selectedWarbandId)
                 if (warband) deckName.value = warband.name
             }
@@ -240,22 +246,128 @@ const gloryNonSurgeObjectives = computed(() =>
         objectivesWithoutSurge.value.reduce((sum, c) => sum + (c.glory || 0), 0)
 )
 
-// ---- Сохранение ----
+// ---- Загрузка данных для редактирования ----
+function loadDeckForEdit() {
+    const editId = route.query.edit as string
+    if (!editId) {
+        // Если нет параметра edit, сбрасываем состояние для создания новой колоды
+        resetToNewDeck()
+        return
+    }
+
+    isEditMode.value = true
+    editDeckId.value = editId
+    isLoadingDeck.value = true
+
+    // Сбрасываем состояние билдера перед загрузкой данных
+    builderStore.resetBuilder()
+
+    const savedDecks = JSON.parse(localStorage.getItem('user_decks') || '[]')
+    const deck = savedDecks.find((d: any) => d.id === editId)
+
+    if (!deck) {
+        // Если колода не найдена, просто переходим в режим создания
+        resetToNewDeck()
+        return
+    }
+
+    // Устанавливаем название сразу
+    deckName.value = deck.name
+
+    // Применяем данные колоды
+    applyDeckData(deck)
+}
+
+function resetToNewDeck() {
+    isEditMode.value = false
+    editDeckId.value = null
+    isLoadingDeck.value = false
+    deckName.value = ''
+    builderStore.resetBuilder()
+    goToStep(1)
+}
+
+function applyDeckData(deck: any) {
+    console.log('Applying deck data:', deck)
+
+    // Устанавливаем банду
+    if (deck.warbandId) {
+        builderStore.setSelectedWarband(deck.warbandId)
+    }
+
+    // Устанавливаем деки (setIds)
+    if (deck.setIds && deck.setIds.length > 0) {
+        console.log('Setting decks:', deck.setIds)
+        builderStore.setDecks(deck.setIds)
+    } else {
+        // Если setIds нет, пытаемся определить деки по картам
+        console.warn('No setIds found, trying to determine from cards')
+        const cardSetIds = new Set<string>()
+        deck.cardIds.forEach((id: string) => {
+            const card = allCards.find(c => c.id === id)
+            if (card && card.setId) {
+                cardSetIds.add(card.setId)
+            }
+        })
+        if (cardSetIds.size > 0) {
+            const setIds = Array.from(cardSetIds)
+            console.log('Determined decks from cards:', setIds)
+            builderStore.setDecks(setIds)
+        }
+    }
+
+    // Устанавливаем карты
+    if (deck.cardIds && deck.cardIds.length > 0) {
+        console.log('Setting cards:', deck.cardIds.length)
+        // Проверяем, что все карты есть в store
+        const validCardIds = deck.cardIds.filter((id: string) =>
+                deckStore.cardMap.has(id)
+        )
+        console.log('Valid cards:', validCardIds.length)
+        if (validCardIds.length > 0) {
+            builderStore.setSelectedCards(validCardIds)
+        }
+    }
+
+    // Переходим на шаг 3
+    nextTick(() => {
+        if (builderStore.selectedWarbandId) {
+            // Всегда переходим на шаг 3 при редактировании
+            goToStep(3)
+        }
+        isLoadingDeck.value = false
+    })
+}
+
+// ---- Сохранение (создание или обновление) ----
 function saveDeck() {
     if (!isValid.value) return
 
     const deckData = {
-        id: `user_${Date.now()}`,
-        name: deckName.value.trim() || selectedWarband.value?.name || 'Unnamed Deck',
-        description: 'Собрана в конструкторе',
+        id: isEditMode.value ? editDeckId.value : `user_${Date.now()}`,
+        name: deckName.value.trim() || 'Unnamed Deck',
+        description: isEditMode.value ? 'Updated in builder' : 'Собрана в конструкторе',
         warbandId: builderStore.selectedWarbandId,
         cardIds: builderStore.selectedCardIds,
-        setIds: builderStore.selectedDeckIds, // для информации
+        setIds: builderStore.selectedDeckIds,
         createdAt: new Date().toISOString()
     }
 
-    const savedDecks = JSON.parse(localStorage.getItem('user_decks') || '[]')
-    savedDecks.push(deckData)
+    let savedDecks = JSON.parse(localStorage.getItem('user_decks') || '[]')
+
+    if (isEditMode.value) {
+        const index = savedDecks.findIndex((d: any) => d.id === editDeckId.value)
+        if (index !== -1) {
+            const originalDeck = savedDecks[index]
+            deckData.createdAt = originalDeck.createdAt || new Date().toISOString()
+            savedDecks[index] = deckData
+        } else {
+            savedDecks.push(deckData)
+        }
+    } else {
+        savedDecks.push(deckData)
+    }
+
     localStorage.setItem('user_decks', JSON.stringify(savedDecks))
 
     builderStore.resetBuilder()
@@ -264,13 +376,38 @@ function saveDeck() {
 
 function cancel() {
     builderStore.resetBuilder()
-    router.push('/')
+    router.push('/my-decks')
 }
+
+// Загружаем данные для редактирования при монтировании
+onMounted(() => {
+    // Если есть параметр edit, загружаем данные для редактирования
+    // Иначе сбрасываем состояние для создания новой колоды
+    if (route.query.edit) {
+        loadDeckForEdit()
+    } else {
+        resetToNewDeck()
+    }
+})
+
+// Следим за изменением маршрута (если пользователь перешел с редактирования на создание)
+watch(
+        () => route.query.edit,
+        (newEdit) => {
+            if (newEdit) {
+                loadDeckForEdit()
+            } else {
+                resetToNewDeck()
+            }
+        }
+)
 </script>
 
 <template>
     <div class="builder-view">
-        <h1 class="builder-view__title">Deck Builder</h1>
+        <h1 class="builder-view__title">
+            {{ isEditMode ? 'Edit Deck' : 'Deck Builder' }}
+        </h1>
 
         <!-- Индикатор шагов (3 шага) -->
         <div class="steps-indicator">
@@ -286,6 +423,11 @@ function cancel() {
           {{ step === 1 ? 'WarBand' : step === 2 ? 'Decks' : 'Cards' }}
         </span>
             </div>
+        </div>
+
+        <!-- Индикатор загрузки -->
+        <div v-if="isLoadingDeck" class="loading-indicator">
+            Loading deck data...
         </div>
 
         <!-- Шаг 1: Выбор банды -->
@@ -555,7 +697,9 @@ function cancel() {
             <div class="step-actions">
                 <button class="btn btn-secondary" @click="goToStep(2)">Back</button>
                 <button class="btn btn-secondary" @click="cancel">Cancel</button>
-                <button class="btn btn-primary" :disabled="!isValid" @click="saveDeck">Save deck</button>
+                <button class="btn btn-primary" :disabled="!isValid" @click="saveDeck">
+                    {{ isEditMode ? 'Update Deck' : 'Save deck' }}
+                </button>
             </div>
         </div>
 
@@ -565,6 +709,13 @@ function cancel() {
 </template>
 
 <style scoped>
+/* Все стили остаются без изменений */
+.loading-indicator {
+    text-align: center;
+    padding: 40px;
+    color: #a0c4ff;
+    font-size: 1.2rem;
+}
 
 .builder-view {
     max-width: 1200px;
@@ -733,7 +884,6 @@ function cancel() {
 .deck-card__name {
     font-weight: 600;
 }
-
 
 .deck-name-input {
     margin-bottom: 16px;

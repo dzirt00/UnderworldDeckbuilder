@@ -9,6 +9,7 @@ interface SavedDeck {
     description: string
     warbandId: string | null
     cardIds: string[]
+    setIds?: string[]
     createdAt: string
 }
 
@@ -34,6 +35,20 @@ function deleteDeck(id: string) {
 
 function openDeck(id: string) {
     router.push(`/my-decks/${id}`)
+}
+
+function editDeck(deck: SavedDeck) {
+    // Передаем данные колоды через query параметры
+    router.push({
+        path: '/builder',
+        query: {
+            edit: deck.id,
+            warbandId: deck.warbandId || '',
+            cardIds: deck.cardIds.join(','),
+            deckName: deck.name,
+            setIds: (deck.setIds || []).join(',')
+        }
+    })
 }
 
 // === Toast уведомления ===
@@ -82,6 +97,7 @@ onMounted(() => {
         description: 'Imported from link',
         warbandId: decoded.warbandId,
         cardIds: decoded.cardIds,
+        setIds: [],
         createdAt: new Date().toISOString()
     }
 
@@ -148,6 +164,9 @@ function shareDeck(deck: SavedDeck) {
                 <p class="deck-card__count">{{ deck.cardIds.length }} cards</p>
 
                 <div class="deck-card__actions">
+                    <button class="btn-edit" @click.stop="editDeck(deck)" title="Edit deck">
+                        ✏️
+                    </button>
                     <button class="btn-share" @click.stop="shareDeck(deck)" title="Share link">
                         📤
                     </button>
@@ -159,7 +178,6 @@ function shareDeck(deck: SavedDeck) {
 </template>
 
 <style scoped>
-/* все стили остаются без изменений, кроме добавленного .toast (уже есть) */
 .toast {
     position: fixed;
     top: 20px;
@@ -295,6 +313,24 @@ function shareDeck(deck: SavedDeck) {
 }
 .btn-share:hover {
     background: #3a6a8a;
+    transform: scale(1.05);
+}
+.btn-edit {
+    background: #4a5a2a;
+    border: none;
+    color: #c4ffa0;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-edit:hover {
+    background: #6a8a3a;
     transform: scale(1.05);
 }
 .import-error {

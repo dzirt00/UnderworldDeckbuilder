@@ -75,7 +75,7 @@ body {
     display: flex;
     flex-direction: column;
     /* Учитываем высоту хедера + безопасную зону сверху */
-    padding-top: calc(64px + env(safe-area-inset-top, 0px));
+    padding-top: calc(32px + env(safe-area-inset-top, 0px));
     width: 100%;
     max-width: 100vw;
     overflow-x: hidden;
