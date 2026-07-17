@@ -118,7 +118,7 @@ function goBack() {
 .deck-detail {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px 16px;
+    padding: 0 16px 20px 16px;
     color: #e0e0e0;
 }
 
