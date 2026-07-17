@@ -4,17 +4,24 @@ import { fileURLToPath, URL } from 'node:url'
 
 export default defineConfig({
   plugins: [vue()],
+
   test: {
     globals: true,
     environment: 'jsdom'
   },
+
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
   },
-  // build: {            // <-- удалите или закомментируйте внешние настройки
-  //   rolldownOptions: { external: ['@capacitor/app', '@capacitor/status-bar'] },
-  //   rollupOptions: { external: ['@capacitor/app', '@capacitor/status-bar'] }
-  // }
+
+  build: {
+    // Настройки для нового сборщика Rolldown, который используется в Vite
+    rolldownOptions: {
+      checks: {
+        pluginTimings: false // Отключает вывод логов [PLUGIN_TIMINGS]
+      }
+    }
+  }
 })

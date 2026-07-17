@@ -1,17 +1,15 @@
 import { createApp, nextTick } from 'vue'
 import { createPinia } from 'pinia'
-import { Capacitor } from '@capacitor/core' // Надежный импорт для проверки среды
+import { Capacitor } from '@capacitor/core'
+import { App } from '@capacitor/app'
+import { Toast } from '@capacitor/toast'
+import { StatusBar, Style } from '@capacitor/status-bar'
 import AppComponent from './App.vue'
 import router from './router'
 
-let lastBackPress = 0 // Оставляем только ОДНО объявление переменной
-
 // Инициализация обработчика кнопки «Назад»
-async function setupBackButton() {
+function setupBackButton() {
   if (Capacitor.isNativePlatform()) {
-    const { App } = await import('@capacitor/app')
-    const { Toast } = await import('@capacitor/toast')
-
     App.addListener('backButton', ({ canGoBack }) => {
       nextTick(async () => {
         // Получаем текущий путь во Vue Router
@@ -19,14 +17,12 @@ async function setupBackButton() {
 
         // 1. Проверяем, находится ли пользователь на ГЛАВНОМ экране (например, '/')
         if (currentPath === '/') {
-          // Если на главной — СРАЗУ закрываем приложение без двойных кликов и тостов
           App.exitApp()
           return
         }
 
         // 2. Если пользователь НЕ на главной, но в истории WebView больше нет страниц
         if (!canGoBack) {
-          // Тоже выходим из приложения (на случай, если зашли сразу на другую страницу)
           App.exitApp()
           return
         }
@@ -42,7 +38,6 @@ async function setupBackButton() {
 async function setupStatusBar() {
   if (Capacitor.isNativePlatform()) {
     try {
-      const { StatusBar, Style } = await import('@capacitor/status-bar')
       await StatusBar.setOverlaysWebView({ overlay: true })
       await StatusBar.setStyle({ style: Style.Dark })
     } catch (error) {
@@ -51,7 +46,7 @@ async function setupStatusBar() {
   }
 }
 
-// Запускаем асинхронные настройки перед монтированием приложения
+// Запускаем настройки перед монтированием приложения
 setupBackButton()
 setupStatusBar()
 
